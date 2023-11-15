@@ -1,0 +1,116 @@
+---
+
+course_flow:
+  - course: "Biology"
+    grade_levels: [9]
+    recommendations:
+      - name: "Accelerated Chemistry"
+        rank: 1
+      - name: "Chemistry"
+        rank: 2
+      - name: "LPS"
+        rank: 3
+
+  - course: "LPS"
+    grade_levels: [10]
+    recommendations:
+      - name: "Advanced Biology"
+        rank: 2
+      - name: "Advanced Chemistry"
+        rank: 2
+      - name: "Genetics/Anatomy"
+        rank: 2
+      - name: "Ecology/Evolution"
+        rank: 2
+      - name: "Special Topics in Physics"
+        rank: 2
+      - name: "Chemistry"
+        rank: 1
+
+  - course: "Chemistry"
+    grade_levels: [10, 11, 12]
+    grade_level_recommendations:
+      - grade_levels: [10]
+        recommendations:
+          - name: "Physics"
+            rank: 1
+      - grade_levels: [11]
+        recommendations:
+          - name: "Advanced Biology"
+            rank: 1
+          - name: "Advanced Chemistry"
+            rank: 1
+          - name: "Genetics/Anatomy"
+            rank: 1
+          - name: "Ecology/Evolution"
+            rank: 1
+          - name: "Special Topics in Physics"
+            rank: 1
+          - name: "Physics"
+            rank: 2
+
+  - course: "Accelerated Chemistry"
+    grade_levels: [9]
+    recommendations:
+      - name: "Accelerated Physics"
+        rank: 1
+      - name: "Physics"
+        rank: 2
+
+  - course: "Physics"
+    grade_levels: [11, 12]
+    recommendations:
+      - name: "Advanced Bio"
+        rank: 1
+      - name: "Advanced Chemistry"
+        rank: 1
+      - name: "Genetics/Anatomy"
+        rank: 1
+      - name: "Ecology/Evolution"
+        rank: 1
+      - name: "Special Topics in Physics"
+        rank: 1
+
+  - course: "Accelerated Physics"
+    grade_levels: [11]
+    recommendations:
+      - name: "Advanced Biology"
+        rank: 1
+      - name: "Advanced Chemistry"
+        rank: 1
+      - name: "Genetics/Anatomy"
+        rank: 1
+      - name: "Ecology/Evolution"
+        rank: 1
+      - name: "Special Topics in Physics"
+        rank: 1
+
+  - course: "Advanced Biology"
+    grade_levels: [11, 12]
+    recommendations:
+      - name: "Chemistry"
+        rank: 1
+
+  - course: "Advanced Chemistry"
+    grade_levels: [11, 12]
+    recommendations:
+      - name: "Chemistry"
+        rank: 1
+
+  - course: "Genetics/Anatomy"
+    grade_levels: [11, 12]
+    recommendations:
+      - name: "Chemistry"
+        rank: 1
+
+  - course: "Ecology/Evolution"
+    grade_levels: [11, 12]
+    recommendations:
+      - name: "Chemistry"
+        rank: 1
+
+  - course: "Special Topics in Physics"
+    grade_levels: [11, 12]
+    recommendations:
+      - name: "Chemistry"
+        rank: 1

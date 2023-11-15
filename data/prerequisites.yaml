@@ -1,0 +1,137 @@
+---
+
+courses:
+  - name: "LPS"
+    grade_levels: [10]
+    prerequisites:
+      - name: "Biology"
+        min_grade: 60
+
+  - name: "Chemistry"
+    grade_levels: [10, 11, 12]
+    grade_level_prerequisites:
+      - grade_levels: [10]
+        prerequisites:
+          - name: "Biology"
+            min_grade: 80
+          - one_of:
+              - name: "Geometry"
+                min_grade: 80
+              - name: "Accelerated Geometry"
+                min_grade: 60
+      - grade_levels: [11]
+        prerequisites:
+          - name: "LPS"
+            min_grade: 75
+          - one_of:
+              - name: "Geometry"
+                min_grade: 80
+              - name: "Accelerated Geometry"
+                min_grade: 80
+              - name: "Algebra 2"
+                min_grade: 80
+      - grade_levels: [12]
+        prerequisites:
+          - one_of:
+              - name: "Genetics/Anatomy"
+                min_grade: 60
+              - name: "Ecology/Evolution"
+                min_grade: 60
+              - name: "Special Topics Physics"
+                min_grade: 60
+              - name: "Advanced Biology"
+                min_grade: 60
+
+  - name: "Accelerated Chemistry"
+    grade_levels: [10]
+    prerequisites:
+      - name: "Biology"
+        min_grade: 88
+      - one_of:
+          - name: "Geometry"
+            min_grade: 90
+          - name: "Accelerated Geometry"
+            min_grade: 60
+
+  - name: "Advanced Biology"
+    grade_levels: [11, 12]
+    prerequisites:
+      - name: "Biology"
+        min_grade: 90
+      - one_of:
+          - name: "Chemistry"
+            min_grade: 90
+          - name: "Accelerated Chemistry"
+            min_grade: 85
+      - one_of:
+          - name: "Pre-Calculus"
+            min_grade: 90
+          - name: "Accelerated Calculus I"
+            min_grade: 85
+
+  - name: "Advanced Chemistry"
+    grade_levels: [11, 12]
+    prerequisites:
+      - one_of:
+          - name: "Chemistry"
+            min_grade: 90
+          - name: "Accelerated Chemistry"
+            min_grade: 85
+      - one_of:
+          - name: "Pre-Calculus"
+            min_grade: 90
+          - name: "Accelerated Calculus I"
+            min_grade: 85
+
+  - name: "Genetics/Anatomy"
+    grade_levels: [11, 12]
+    prerequisites:
+      - name: "Biology"
+        min_grade: 60
+      - name: "Chemistry"
+        min_grade: 60
+
+  - name: "Ecology/Evolution"
+    grade_levels: [11, 12]
+    prerequisites:
+      - name: "Biology"
+        min_grade: 60
+
+  - name: "Special Topics in Physics"
+    grade_levels: [11, 12]
+    prerequisites:
+      - name: "Physics"
+        min_grade: 60
+
+  - name: "Physics"
+    grade_levels: [11,12]
+    grade_level_prerequisites:
+      - grade_levels: [11]
+        prerequisites:
+          - one_of:
+              - name: "Chemistry"
+                min_grade: 90
+              - name: "Accelerated Chemistry"
+                min_grade: 85
+          - name: "Accelerated Algebra and Trig"
+            min_grade: 85
+      - grade_levels: [12]
+        prerequisites:
+          - name: "Chemistry"
+            min_grade: 80
+          - one_of:
+              - name: "Algebra 2"
+                min_grade: 80
+              - name: "Pre-Calculus"
+                min_grade: 80
+
+  - name: "Accelerated Physics"
+    grade_levels: [11]
+    prerequisites:
+      - one_of:
+          - name: "Chemistry"
+            min_grade: 90
+          - name: "Accelerated Chemistry"
+            min_grade: 85
+      - name: "Accelerated Algebra and Trig"
+        min_grade: 85
