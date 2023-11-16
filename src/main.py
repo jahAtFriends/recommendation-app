@@ -8,6 +8,10 @@ from utils.yaml_processor import read_yaml
 
 courses = []
 flow = []
+students = {}
+
+#Change this to the current year
+current_year = 2023
 
 def main():
     flow_data = read_yaml('flow.yaml')
@@ -120,6 +124,31 @@ def build_prerequistes(course: Course, prerequisite_data, grade_levels: list[int
             prereq_course = get_course(prereq_name)
             return Prerequisite(prereq_course, grade_levels, record['min_grade'])
             
-            
+def load_student_data(academic_data):
+    for record in academic_data:
+        first_name = record['first_name']
+        last_name = record['last_name']
+        grade_level = record['grade_level']
+        reported_year = record['year']
+        normalized_grade_level = get_present_grade_level(grade_level, reported_year)
+        id = get_student_identifier(first_name, last_name, normalized_grade_level)
+        student = None
+        if id in students:
+            student = students[id]
+        else:
+            student = Student(first_name + " " + last_name, normalized_grade_level)
+            students[id] = student
+
+        course_name = get_course(record['course'])
+        course = get_course(course_name)
+        grade = record['average']
+        student.add_course(course, grade)
+        
+def get_student_identifier(first_name, last_name, grade_level):
+    return first_name + "-" + last_name + "-" + str(grade_level)
+
+def get_present_grade_level(grade_level, year):
+    return grade_level + current_year - year
+
 if __name__ == '__main__':
     main()
