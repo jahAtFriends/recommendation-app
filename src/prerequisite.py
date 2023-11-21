@@ -1,6 +1,25 @@
-import course as c
-
 class Prerequisite:
+    """
+    Represents a prerequisite for a course.
+
+    Attributes:
+        this_course (str): The course for which the prerequisite is defined.
+        grade_levels (list): A list of grade levels that satisfy the prerequisite.
+        min_grade (int): The minimum grade required to satisfy the prerequisite.
+        alternatives (list): A list of alternative courses that can satisfy the prerequisite.
+        simultaneous (list): A list of courses that can be taken simultaneously with the prerequisite.
+
+    Methods:
+        __init__(self, this_course=None, grade_levels=[], min_grade=60, alternatives=None, simultaneous=None, data=None):
+            Initializes a Prerequisite object.
+        
+        check_prerequisite(self, student):
+            Check if the student meets the prerequisite criteria for this course.
+        
+        build_prereq(data):
+            Recursively build a prerequisite object based on the provided data.
+    """
+
     def __init__(self, this_course=None, grade_levels=[], min_grade=60, alternatives=None, simultaneous=None, data=None):
         """
         Initializes a Prerequisite object. In the argruments below, only one of this_course, alternatives,
@@ -52,7 +71,6 @@ class Prerequisite:
             return False
         
     def build_prereq(data):
-       
         """
         Recursively build a prerequisite object based on the provided data.
 
@@ -62,8 +80,6 @@ class Prerequisite:
         Returns:
             Prerequisite: The built prerequisite object.
         """
-
-        
         if data.keys().length > 1:
             simuls = []
             for a in data:
