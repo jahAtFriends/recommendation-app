@@ -3,6 +3,7 @@ class Student:
         self.name = name
         self.courses = {}
         self.recommendations = []
+        self.class_year = class_year
         
     def add_course(self, course, grade, year):
         """
@@ -58,6 +59,9 @@ class Student:
         - str: A unique identifier for the student.
         """
         return self.name + str(self.class_year)
+
+    def __str__(self):
+        return self.name + " " + str(self.class_year)
     
     @classmethod
     def get_identifier(cls, first_name, last_name, class_year):
@@ -85,7 +89,7 @@ class Roster:
             None
         """
         for row in data:
-            first_name, last_name, class_year, year, course, grade = row['first_name'], row['last_name'], row['class_year'], row['year'], row['course'], row['average']
+            first_name, last_name, class_year, year, course, grade = row['first_name'], row['last_name'], int(row['class_year']), int(row['year']), row['course'], float(row['average'])
             identifier = Student.get_identifier(first_name, last_name, class_year)
             student = None
             if identifier not in self.students:
