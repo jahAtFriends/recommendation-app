@@ -9,6 +9,7 @@ Additionally each arrow
 '''
 
 from prerequisite import Prerequisite
+from student import Student
 
 class CourseFlow:
     def __init__(self, data=None):
@@ -48,3 +49,27 @@ class CourseFlow:
                 prerequisites = Prerequisite(data=prerequisite_data)
                 self.__add_arrow(from_course, to_course, rank, grade_levels, prerequisites)
 
+    def get_recommendations(self, student: Student, year):
+        """
+        Get the recommendations for the given student.
+
+        Args:
+            student (Student): The student to get recommendations for.
+            year (int): The year to get recommendations for.
+
+        Returns:
+            list: A list of courses that the student should take next.
+        """
+        recommendations = []
+        for course in student.get_current_courses(year):
+            for arrow in self.nodes[course]:
+                to_course = arrow['to_course']
+                rank = arrow['rank']
+                grade_levels = arrow['grade_levels']
+                prerequisites = arrow['prerequisites']
+                if student.grade_level in grade_levels and prerequisites.check_prerequisite(student):
+                    recommendations.append({
+                        'course': to_course,
+                        'rank': rank
+                    })
+        return recommendations
