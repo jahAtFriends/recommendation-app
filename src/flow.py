@@ -19,7 +19,7 @@ class CourseFlow:
     
     def __add_arrow(self, from_course, to_course, rank, grade_levels, prerequisites):
         to_course = {
-            'course': to_course,
+            'to_course': to_course,
             'rank': rank,
             'grade_levels': grade_levels,
             'prerequisites': prerequisites
@@ -46,7 +46,7 @@ class CourseFlow:
                 rank = arrow['rank']
                 grade_levels = arrow['grade_levels']
                 prerequisite_data = arrow['prerequisites']
-                prerequisites = Prerequisite(data=prerequisite_data)
+                prerequisites = Prerequisite.build_prereq(prerequisite_data, grade_levels)
                 self.__add_arrow(from_course, to_course, rank, grade_levels, prerequisites)
 
     def get_recommendations(self, student: Student, year):
@@ -62,12 +62,13 @@ class CourseFlow:
         """
         recommendations = []
         for course in student.get_current_courses(year):
+            if course not in self.nodes: continue
             for arrow in self.nodes[course]:
                 to_course = arrow['to_course']
                 rank = arrow['rank']
                 grade_levels = arrow['grade_levels']
                 prerequisites = arrow['prerequisites']
-                if student.grade_level in grade_levels and prerequisites.check_prerequisite(student):
+                if student.get_grade_level(year) in grade_levels and prerequisites.check_prerequisite(student, year):
                     recommendations.append({
                         'course': to_course,
                         'rank': rank
