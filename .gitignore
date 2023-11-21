@@ -2,3 +2,5 @@
 output.txt
 Pipfile
 Pipfile.lock
+src/__pycache__
+src/utils/__pycache__
