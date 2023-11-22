@@ -11,6 +11,7 @@ students = {}
 # In any given school year, the year is the year that the school year ends.
 current_year = 2023
 
+
 def main():
     flow_data = read_yaml('courseflow.yaml')
     course_flow = CourseFlow(data=flow_data['flow'])
@@ -23,12 +24,11 @@ def main():
     for student in roster:
         recommendations[student] = course_flow.get_recommendations(student, current_year)
     
-    #print recommendations
-    for student in recommendations:
-        print(student)
-        print(recommendations[student])
-        print()
+    #convert recommendations to friendly dictionaries
+    csv_recs = [{'student': student, 'recommendations': recommendations[student]} for student in recommendations.keys()]
 
+    # Write recommendations to CSV
+    write_csv('recommendations.csv', csv_recs, ['student', 'recommendations'])
 
 if __name__ == '__main__':
     main()
