@@ -16,7 +16,7 @@ def write_csv(file_path, data, fieldnames):
     Writes a list of dictionaries to a CSV file.
     Each dictionary in the list represents a row in the CSV file.
     """
-    abs_path = os.path.join(os.getcwd(), 'data', file_path)
+    abs_path = os.path.join(os.getcwd(), 'output', file_path)
     with open(abs_path, 'w', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
