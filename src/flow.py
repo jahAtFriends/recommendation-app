@@ -73,4 +73,20 @@ class CourseFlow:
                         'course': to_course,
                         'rank': rank
                     })
-        return recommendations
+        # Return only the recommendations with the highest rank as a list of course names
+        recommendations =  self.scrub_recommendations_by_rank(recommendations)
+        return [rec['course'] for rec in recommendations]
+    
+    def scrub_recommendations_by_rank(self, recommendations):
+        """
+        Scrubs the recommendations list by keeping only the recommendations with the highest rank.
+
+        Args:
+            recommendations (list): A list of recommendation dictionaries.
+
+        Returns:
+            list: A list of recommendation dictionaries with the highest rank.
+        """
+        recommendations = sorted(recommendations, key=lambda x: x['rank'])
+        scrubbed_recommendations = [rec for rec in recommendations if rec['rank'] == recommendations[0]['rank']]
+        return scrubbed_recommendations
