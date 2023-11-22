@@ -22,6 +22,8 @@ flow:
                   min_grade: 60
                 - course: "Algebra 2"
                   min_grade: 60
+                - course: "Accelerated Algebra"
+                  min_grade: 60
         - to_course: "Accelerated Chemistry"
           grade_levels: [9]
           rank: 1
@@ -34,6 +36,8 @@ flow:
                 - course: "Accelerated Geometry"
                   min_grade: 60
                 - course: "Algebra 2"
+                  min_grade: 60
+                - course: "Accelerated Algebra"
                   min_grade: 60
     - course: "LPS"
       arrows:
