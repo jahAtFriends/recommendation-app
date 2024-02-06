@@ -1,258 +1,259 @@
 ---
-
+courses:
+  - name: "Biology"
+    grade_levels: [9]
+    department: "Science"
+  - name: "Chemistry"
+    grade_levels: [10, 11, 12]
+    department: "Science"
+  - name: "LPS"
+    grade_levels: [10]
+    department: "Science"
+  - name: "Accelerated Chemistry"
+    grade_levels: [10]
+    department: "Science"
+  - name: "Physics"
+    grade_levels: [11, 12]
+    department: "Science"
+  - name: "Advanced Biology"
+    grade_levels: [12]
+    department: "Science"
+  - name: "Advanced Chemistry"
+    grade_levels: [12]
+    department: "Science"
+  - name: "Advanced Environmental Science"
+    grade_levels: [12]
+    department: "Science"
+  - name: "Genetics/Anatomy"
+    grade_levels: [11, 12]
+    department: "Science"
+  - name: "Ecology/Evolution"
+    grade_levels: [11, 12]
+    department: "Science"
+  - name: "Special Topics in Physics"
+    grade_levels: [12]
+    department: "Science"
+  - name: "Accelerated Geometry"
+    grade_levels: [9]
+    department: "Math"
+  - name: "Geometry"
+    grade_levels: [9, 10]
+    department: "Math"
+  - name: "Accelerated Algebra"
+    grade_levels: [9, 10]
+  - name: "Algebra II"
+    grade_levels: [10, 11, 12]
+    department: "Math"
+    department: "Math"
+  - name: "Precalculus"
+    grade_levels: [10, 11, 12]
+    department: "Math"
 flow:
-    - course: "Biology"
-      arrows:
-        - to_course: "LPS"
-          grade_levels: [9]
-          rank: 3
-          prerequisites:
-            - course: "Biology"
-              min_grade: 60
-        - to_course: "Chemistry"
-          grade_levels: [9]
-          rank: 2
-          prerequisites:
-            - course: "Biology"
+  - grade_level: 9
+    courses:
+      - course_name: "Biology"
+        arrows:
+          - course_name: "LPS"
+            rank: 3
+          - course_name: "Chemistry"
+            rank: 2
+          - course_name: "Accelerated Chemistry"
+            rank: 1
+  - grade_level: 10
+    courses:
+      - course_name: "Chemistry"
+        arrows:
+          - course_name: "Physics"
+            rank: 1
+          - course_name: "Genetics/Anatomy"
+            rank: 2
+          - course_name: "Ecology/Evolution"
+            rank: 2
+      - course_name: "LPS"
+        arrows:
+          - course_name: "Chemistry"
+            rank: 1
+          - course_name: "Genetics/Anatomy"
+            rank: 2
+          - course_name: "Ecology/Evolution"
+            rank: 2
+      - course_name: "Accelerated Chemistry"
+        arrows:
+          - course_name: "Accelerated Physics"
+            rank: 1
+          - course_name: "Physics"
+            rank: 2
+          - course_name: "Genetics/Anatomy"
+            rank: 3
+          - course_name: "Ecology/Evolution"
+            rank: 3
+  - grade_level: 11
+    courses:
+      - course_name: "Physics"
+        arrows:
+          - course_name: "Advanced Biology"
+            rank: 1
+          - course_name: "Advanced Chemistry"
+            rank: 1
+          - course_name: "Advanced Environmental Science"
+            rank: 1
+          - course_name: "Special Topics in Physics"
+            rank: 1
+          - course_name: "Genetics/Anatomy"
+            rank: 2
+          - course_name: "Ecology/Evolution"
+            rank: 2
+      - course_name: "Genetics/Anatomy"
+        arrows:
+          - course_name: "Physics"
+            rank: 1
+          - course_name: "Ecology/Evolution"
+            rank: 2
+      - course_name: "Ecology/Evolution"
+        arrows:
+          - course_name: "Physics"
+            rank: 2
+          - course_name: "Chemistry"
+            rank: 1
+          - course_name: "Genetics/Anatomy"
+            rank: 3
+      - course_name: "Accelerated Physics"
+        arrows:
+          - course_name: "Advanced Biology"
+            rank: 1
+          - course_name: "Advanced Chemistry"
+            rank: 1
+          - course_name: "Advanced Environmental Science"
+            rank: 1
+          - course_name: "Special Topics in Physics"
+            rank: 1
+          - course_name: "Genetics/Anatomy"
+            rank: 2
+          - course_name: "Ecology/Evolution"
+            rank: 2
+prereqs:
+  - course_name: "Biology"
+    prerequisites: []
+  - course_name: "Chemistry"
+    prerequisites:
+      - one_of:
+          - all_of:
+              - grade_levels: [9]
+              - course_name: "Biology"
+                min_grade: 80
+              - one_of:
+                  - course_name: "Geometry"
+                    min_grade: 80
+                  - course_name: "Accelerated Geometry"
+                    min_grade: 60
+          - all_of:
+              - grade_levels: [10]
+              - course_name: "LPS"
+                min_grade: 75
+              - one_of:
+                  - course_name: "Geometry"
+                    min_grade: 80
+                  - course_name: "Accelerated Geometry"
+                    min_grade: 60
+                  - course_name: "Algebra II"
+                    min_grade: 80
+          - grade_levels: [11]
+  - course_name: "Accelerated Chemistry"
+    prerequisites:
+      - course_name: "Biology"
+        min_grade: 90
+      - course_name: "Accelerated Geometry"
+        min_grade: 85
+  - course_name: "LPS"
+    prerequisites:
+      - course_name: "Biology"
+        min_grade: 60
+  - course_name: "Physics"
+    prerequisites:
+      - one_of:
+          - all_of:
+            - grade_levels: [10]
+            - course_name: "Chemistry"
               min_grade: 80
             - one_of:
-                - course: "Geometry"
+                - course_name: "Algebra II"
                   min_grade: 80
-                - course: "Accelerated Geometry"
+                - course_name: "Accelerated Algebra"
                   min_grade: 60
-                - course: "Algebra 2"
+          - all_of:
+            - grade_levels: [11]
+            - one_of:
+                - course_name: "Chemistry"
+                  min_grade: 80
+                - course_name: "Accelerated Chemistry"
                   min_grade: 60
-                - course: "Accelerated Algebra"
+            - one_of:
+                - course_name: "Algebra II"
+                  min_grade: 80
+                - course_name: "Accelerated Algebra"
                   min_grade: 60
-        - to_course: "Accelerated Chemistry"
-          grade_levels: [9]
-          rank: 1
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-            - one_of:
-                - course: "Accelerated Geometry"
-                  min_grade: 85
-                - course: "Algebra 2"
-                  min_grade: 60
-                - course: "Accelerated Algebra"
-                  min_grade: 60
-    - course: "LPS"
-      arrows:
-        - to_course: "Chemistry"
-          grade_levels: [10]
-          rank: 1
-          prerequisites:
-            - course: "LPS"
-              min_grade: 75
-            - one_of:
-              - course: "Geometry"
-                min_grade: 80
-              - course: "Algebra 2"
-                min_grade: 80
-        - to_course: "Ecology/Evolution"
-          grade_levels: [10]
-          rank: 2
-          prerequisites:
-            - course: "Biology"
-              min_grade: 60
-    - course: "Chemistry"
-      arrows:
-        - to_course: "Physics"
-          grade_levels: [10, 11]
-          rank: 1
-          prerequisites:
-            - course: "Chemistry"
-              min_grade: 80
-            - one_of:
-              - course: "Algebra 2"
-                min_grade: 80
-              - course: "Precalculus"
-                min_grade: 60
-              - course: "Accelerated Algebra"
-                min_grade: 60
-        - to_course: "Advanced Biology"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-            - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - one_of:
-                - course: Precalculus
-                  min_grade: 90
-                - course: Accelerated Calculus 1"
-                  min_grade: 85
-        - to_course: "Advanced Chemistry"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - one_of:
-                - course: "Precalculus"
-                  min_grade: 90
-                - course: "Accelerated Calculus 1"
-                  min_grade: 85
-        - to_course: "Genetics/Anatomy"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - course: "Biology"
-              min_grade: 60
-            - course: "Chemistry"
-              min_grade: 60
-        - to_course: "Ecology/Evolution"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-        - to_course: "Special Topics in Physics"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - one_of:
-                - course: "Physics"
-                  min_grade: 60
-                - course: "Accelerated Physics"
-                  min_grade: 60
-    - course: "Accelerated Chemistry"
-      arrows:
-        - to_course: "Accelerated Physics"
-          rank: 1
-          grade_levels: [10]
-          prerequisites:
-            - one_of:
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - course: "Accelerated Algebra"
-              min_grade: 85
-    - course: "Physics"
-      arrows:
-        - to_course: "Advanced Biology"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-            - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - one_of:
-                - course: Precalculus
-                  min_grade: 90
-                - course: Accelerated Calculus 1"
-                  min_grade: 85
-        - to_course: "Advanced Chemistry"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - one_of:
-                - course: "Precalculus"
-                  min_grade: 90
-                - course: "Accelerated Calculus 1"
-                  min_grade: 85
-                  
-        - to_course: "Genetics/Anatomy"
-          grade_levels: [11]
-          rank: 2
-          prerequisites:
-            - course: "Biology"
-              min_grade: 60
-            - course: "Chemistry"
-              min_grade: 60
-        - to_course: "Ecology/Evolution"
-          grade_levels: [11]
-          rank: 2
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-        - to_course: "Special Topics in Physics"
-          grade_levels: [11]
-          rank: 2
-          prerequisites:
-            - one_of:
-                - course: "Physics"
-                  min_grade: 60
-                - course: "Accelerated Physics"
-                  min_grade: 60
-    - course: "Accelerated Physics"
-      arrows:
-        - to_course: "Advanced Biology"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-            - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - one_of:
-                - course: Precalculus
-                  min_grade: 90
-                - course: Accelerated Calculus 1"
-                  min_grade: 85
-        - to_course: "Advanced Chemistry"
-          grade_levels: [11]
-          rank: 1
-          prerequisites:
-            - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
-                - course: "Accelerated Chemistry"
-                  min_grade: 85
-            - one_of:
-                - course: "Precalculus"
-                  min_grade: 90
-                - course: "Accelerated Calculus 1"
-                  min_grade: 85
-                  
-        - to_course: "Genetics/Anatomy"
-          grade_levels: [11]
-          rank: 2
-          prerequisites:
-            - course: "Biology"
-              min_grade: 60
-            - course: "Chemistry"
-              min_grade: 60
-        - to_course: "Ecology/Evolution"
-          grade_levels: [11]
-          rank: 2
-          prerequisites:
-            - course: "Biology"
-              min_grade: 90
-        - to_course: "Special Topics in Physics"
-          grade_levels: [11]
-          rank: 2
-          prerequisites:
-            - one_of:
-                - course: "Physics"
-                  min_grade: 60
-                - course: "Accelerated Physics"
-                  min_grade: 60
-    - course: "Ecology/Evolution"
-      arrows:
-        - to_course: "Chemistry"
-          grade_levels: [10]
-          rank: 1
-          prerequisites:
-            - course: "Ecology/Evolution"
-              min_grade: 0
-          
+                - course_name: "Precalculus"
+                  min_grade: 80
+  - course_name: "Accelerated Physics"
+    prerequisites:
+      - course_name: "Accelerated Chemistry"
+        min_grade: 85
+      - course_name: "Accelerated Algebra"
+        min_grade: 85
+  - course_name: "Genetics/Anatomy"
+    prerequisites:
+      - course_name: "Biology"
+        min_grade: 60
+      - course_name: "Chemistry"
+        min_grade: 60
+  - course_name: "Ecology/Evolution"
+    prerequisites:
+      - course_name: "Biology"
+        min_grade: 60
+  - course_name: "Advanced Biology"
+    prerequisites:
+      - course_name: "Biology"
+        min_grade: 88
+      - one_of:
+          - course_name: "Chemistry"
+            min_grade: 90
+          - course_name: "Accelerated Chemistry"
+            min_grade: 85
+      - one_of:
+          - course_name: "Accelerated Algebra"
+            min_grade: 85
+          - course_name: "Precalculus"
+            min_grade: 88
+  - course_name: "Advanced Chemistry"
+    prerequisites:
+      - one_of:
+        - course_name: "Chemistry"
+          min_grade: 90
+        - course_name: "Accelerated Chemistry"
+          min_grade: 85
+      - one_of:
+          - course_name: "Accelerated Algebra"
+            min_grade: 88
+          - course_name: "Precalculus"
+            min_grade: 90
+  - course_name: "Advanced Environmental Science"
+    prerequisites:
+      - course_name: "Biology"
+        min_grade: 88
+      - one_of:
+        - course_name: "Chemistry"
+          min_grade: 90
+        - course_name: "Accelerated Chemistry"
+          min_grade: 85
+      - one_of:
+          - course_name: "Accelerated Algebra"
+            min_grade: 85
+          - course_name: "Precalculus"
+            min_grade: 88
+  - course_name: "Special Topics in Physics"
+    prerequisites:
+      - one_of:
+        - course_name: "Accelerated Physics"
+          min_grade: 60
+        - course_name: "Physics"
+          min_grade: 60
