@@ -10,83 +10,51 @@ Additionally each arrow
 
 from prerequisite import Prerequisite
 from student import Student
+from courses import Course
 
 class CourseFlow:
     def __init__(self, data=None):
-        self.nodes = {}
+        self.arrows = {}
         if data is not None:
             self.build_flow(data)
     
-    def __add_arrow(self, from_course, to_course, rank, grade_levels, prerequisites):
-        to_course = {
-            'to_course': to_course,
-            'rank': rank,
-            'grade_levels': grade_levels,
-            'prerequisites': prerequisites
-        }
-        if from_course not in self.nodes:
-            self.nodes[from_course] = []
-        self.nodes[from_course].append(to_course)
+    def __add_arrow(self, arrow):
+        if arrow.from_course not in self.arrows:
+            self.arrows[arrow.from_course] = []
+        self.arrows[arrow.from_course].append(arrow)
     
-    def build_flow(self, flow_data):
-        """
-        Builds the flow of courses based on the provided flow_data.
-
-        Args:
-            flow_data (list): A list of dictionaries representing the flow data.
-
-        Returns:
-            None
-        """
-        for record in flow_data:
-            from_course = record['course']
-            arrows = record['arrows']
-            for arrow in arrows:
-                to_course = arrow['to_course']
-                rank = arrow['rank']
-                grade_levels = arrow['grade_levels']
-                prerequisite_data = arrow['prerequisites']
-                prerequisites = Prerequisite.build_prereq(prerequisite_data, grade_levels)
-                self.__add_arrow(from_course, to_course, rank, grade_levels, prerequisites)
-
-    def get_recommendations(self, student: Student, year):
-        """
-        Get the recommendations for the given student.
-
-        Args:
-            student (Student): The student to get recommendations for.
-            year (int): The year to get recommendations for.
-
-        Returns:
-            list: A list of courses that the student should take next.
-        """
-        recommendations = []
-        for course in student.get_current_courses(year):
-            if course not in self.nodes: continue
-            for arrow in self.nodes[course]:
-                to_course = arrow['to_course']
-                rank = arrow['rank']
-                grade_levels = arrow['grade_levels']
-                prerequisites = arrow['prerequisites']
-                if student.get_grade_level(year) in grade_levels and prerequisites.check_prerequisite(student, year):
-                    recommendations.append({
-                        'course': to_course,
-                        'rank': rank
-                    })
-        # Return only the recommendations with the highest rank as a list of course names
-        recommendations =  self.scrub_recommendations_by_rank(recommendations)
-        return [rec['course'] for rec in recommendations]
+    def build_flow(self, flow_data, course_list):
+        for entry in flow_data:
+            grade_level = entry['grade_level']
+            courses = entry['courses']
+            for course in courses:
+                from_course = course_list.get_course(course['from_course'])
+                arrows = Arrow.build_arrows_from_data(course['arrows'], grade_level, from_course, course_list)
+                for arrow in arrows:
+                    self.__add_arrow(arrow)
     
-    def scrub_recommendations_by_rank(self, recommendations):
-        """
-        Scrubs the recommendations list by keeping only the recommendations with the highest rank.
+    def get_arrows(self, course):
+        return self.arrows[course]
+    
+    def get_arrows_by_grade_level(self, course, grade_level):
+        return [arrow for arrow in self.arrows[course] if arrow.grade_level == grade_level]
 
-        Args:
-            recommendations (list): A list of recommendation dictionaries.
+class Arrow:
+    def __init__(self, from_course, to_course, rank, grade_level):
+        self.from_course = from_course
+        self.to_course = to_course
+        self.rank = rank
+        self.grade_level = grade_level
+    
+    @classmethod
+    def build_arrows_from_data(cls, arrows, grade_level, from_course, course_list):
+        to_course = None
+        rank = None
+        result = []
 
-        Returns:
-            list: A list of recommendation dictionaries with the highest rank.
-        """
-        recommendations = sorted(recommendations, key=lambda x: x['rank'])
-        scrubbed_recommendations = [rec for rec in recommendations if rec['rank'] == recommendations[0]['rank']]
-        return scrubbed_recommendations
+        for arrow in arrows:
+            to_course = course_list.get_course(arrow['to_course'])
+            rank = arrow['rank']
+            result.append(Arrow(from_course, to_course, rank, grade_level))
+
+        return result
