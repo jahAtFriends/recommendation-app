@@ -73,6 +73,9 @@ class Student:
         """
         return name + str(class_year)
     
+    def has_taken(self, course):
+        return course in self.courses
+    
     
 class Roster:
     def __init__(self):
