@@ -44,10 +44,11 @@ class Prerequisite:
         self.this_course = this_course
         self.min_grade = min_grade
         self.grade_levels = grade_levels
+
     
-    def check_prerequisite(self, student: Student, year):
+    def satisfied_by(self, student: Student):
         """
-        Check if the student meets the prerequisite criteria for this course.
+        Check if the student meets the prerequisite criteria.
 
         Args:
             student (Student): The student object to check the prerequisite for.
@@ -56,24 +57,27 @@ class Prerequisite:
             bool: True if the student meets the prerequisite criteria, False otherwise.
         """
         # If this is a single-course pre-req, check the criteria directly.
-        if len(self.simultaneous) == 0 and len(self.alternatives) == 0:
+        if self.this_course is not None:
             if self.this_course not in student.courses:
                 return False
-            return student.courses[self.this_course][0] >= self.min_grade and student.get_grade_level(year) in self.grade_levels
+            return student.courses[self.this_course][0] >= self.min_grade
+        # If this is a grade-level pre-req, check the grade level.
+        elif len(self.grade_levels) > 0:
+            return student.get_grade_level() in self.grade_levels
         else: # Recursively check the pre-reqs
             if len(self.simultaneous) > 0:
                 for course in self.simultaneous:
-                    if not course.check_prerequisite(student, year):
+                    if not course.check_prerequisite(student):
                         return False
                 return True
             else:
                 for alt in self.alternatives:
-                    if alt.check_prerequisite(student, year):
+                    if alt.check_prerequisite(student):
                         return True
                 return False
         
     @classmethod
-    def build_prereq(cls, data, grade_levels):
+    def build_prereq(cls, data):
         """
         Recursively build a prerequisite object based on the provided data.
 
@@ -88,23 +92,24 @@ class Prerequisite:
         if isinstance(data, list) and len(data) > 1:
             simuls = []
             for a in data:
-                simuls.append(Prerequisite.build_prereq(a, grade_levels))
-            return Prerequisite(simultaneous=simuls, grade_levels=grade_levels)
+                simuls.append(Prerequisite.build_prereq(a))
+            return Prerequisite(simultaneous=simuls)
         if isinstance(data, list) and len(data) == 1:
-            return Prerequisite.build_prereq(data[0], grade_levels=grade_levels)
+            return Prerequisite.build_prereq(data[0])
         if 'one_of' in data.keys():
             alts_data = data['one_of']
             alts = []
             for a in alts_data:
-                alts.append(Prerequisite.build_prereq(a, grade_levels=grade_levels))
+                alts.append(Prerequisite.build_prereq(a))
             return Prerequisite(alternatives=alts)
         if 'all_of' in data.keys():
             all_data = data['all_of']
             simuls = []
             for a in all_data:
-                simuls.append(Prerequisite.build_prereq(a, grade_levels=grade_levels))
+                simuls.append(Prerequisite.build_prereq(a))
             return Prerequisite(simultaneous=simuls)
+        if 'grade_levels' in data.keys():
+            return Prerequisite(grade_levels=data['grade_levels'])
         else:
             prereq_course = data['course']
-            return Prerequisite(this_course=prereq_course, grade_levels = grade_levels, min_grade=data['min_grade'])
-            
+            return Prerequisite(this_course=prereq_course, min_grade=data['min_grade'])
