@@ -64,14 +64,14 @@ class Student:
         return self.name + " " + str(self.class_year)
     
     @classmethod
-    def get_identifier(cls, first_name, last_name, class_year):
+    def get_identifier(cls, name, class_year):
         """
         Returns a unique-ish identifier for the student.
 
         Returns:
         - str: A unique identifier for the student.
         """
-        return first_name + " " + last_name + str(class_year)
+        return name + str(class_year)
     
     
 class Roster:
@@ -89,11 +89,11 @@ class Roster:
             None
         """
         for row in data:
-            first_name, last_name, class_year, year, course, grade = row['first_name'], row['last_name'], int(row['class_year']), int(row['year']), row['course'], float(row['average'])
-            identifier = Student.get_identifier(first_name, last_name, class_year)
+            name, class_year, year, course, grade = row['name'], int(row['class_year']), int(row['year']), row['course'], float(row['average'])
+            identifier = Student.get_identifier(name, class_year)
             student = None
             if identifier not in self.students:
-                self.students[identifier] = Student(first_name + " " + last_name, class_year)
+                self.students[identifier] = Student(name, class_year)
             student = self.students[identifier]
             student.add_course(course, grade, year)
     

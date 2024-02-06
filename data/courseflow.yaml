@@ -29,12 +29,10 @@ flow:
           rank: 1
           prerequisites:
             - course: "Biology"
-              min_grade: 88
+              min_grade: 90
             - one_of:
-                - course: "Geometry"
-                  min_grade: 90
                 - course: "Accelerated Geometry"
-                  min_grade: 60
+                  min_grade: 85
                 - course: "Algebra 2"
                   min_grade: 60
                 - course: "Accelerated Algebra"
@@ -133,8 +131,6 @@ flow:
           grade_levels: [10]
           prerequisites:
             - one_of:
-                - course: "Chemistry"
-                  min_grade: 90
                 - course: "Accelerated Chemistry"
                   min_grade: 85
             - course: "Accelerated Algebra"
