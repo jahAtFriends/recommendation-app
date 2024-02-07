@@ -15,6 +15,9 @@ courses:
   - name: "Physics"
     grade_levels: [11, 12]
     department: "Science"
+  - name: "Accelerated Physics"
+    grade_levels: [11]
+    department: "Science"
   - name: "Advanced Biology"
     grade_levels: [12]
     department: "Science"
@@ -41,6 +44,7 @@ courses:
     department: "Math"
   - name: "Accelerated Algebra"
     grade_levels: [9, 10]
+    department: "Math"
   - name: "Algebra II"
     grade_levels: [10, 11, 12]
     department: "Math"
@@ -131,6 +135,24 @@ flow:
             rank: 2
           - course_name: "Ecology/Evolution"
             rank: 2
+      - course_name: "Chemistry"
+        arrows:
+          - course_name: "Physics"
+            rank: 1
+          - course_name: "Ecology/Evolution"
+            rank: 2
+          - course_name: "Genetics/Anatomy"
+            rank: 2    
+      - course_name: "Accelerated Chemistry"
+        arrows:
+          - course_name: "Accelerated Physics"
+            rank: 1
+          - course_name: "Physics"
+            rank: 2
+          - course_name: "Genetics/Anatomy"
+            rank: 3
+          - course_name: "Ecology/Evolution"
+            rank: 3    
 prereqs:
   - course_name: "Biology"
     prerequisites: []
@@ -202,14 +224,10 @@ prereqs:
         min_grade: 85
   - course_name: "Genetics/Anatomy"
     prerequisites:
-      - course_name: "Biology"
-        min_grade: 60
       - course_name: "Chemistry"
         min_grade: 60
   - course_name: "Ecology/Evolution"
-    prerequisites:
-      - course_name: "Biology"
-        min_grade: 60
+    prerequisites: []
   - course_name: "Advanced Biology"
     prerequisites:
       - course_name: "Biology"
