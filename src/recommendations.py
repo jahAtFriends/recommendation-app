@@ -5,6 +5,7 @@ def get_all_recommendations(roster, flow, year):
     recommendations = {}
     for student in roster:
         recommendations[student] = get_recommendations_for_student(student, flow, year)
+    return recommendations
 
 def get_recommendations_for_student(student, flow, year):
     current_courses = student.get_current_courses(year)
@@ -15,12 +16,13 @@ def get_recommendations_for_student(student, flow, year):
         for arrow in arrows:
             to_course = arrow.to_course
             rank = arrow.rank
-            prereqs = arrow.prerequisites
             if not student.has_taken(to_course) and satisfies_prerequisites(student, to_course):
                     recommendations.append((to_course, rank))
     return reduce_recommendations(recommendations)
 
 def reduce_recommendations(recommendations):
+    if len(recommendations) == 0:
+        return []
     lowest_rank = min(recommendations, key=lambda x: x[1])[1]
     reduced_recommendations = [course for course, rank in recommendations if rank == lowest_rank]
     return reduced_recommendations
