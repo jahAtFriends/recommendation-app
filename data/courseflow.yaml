@@ -104,9 +104,9 @@ flow:
           - course_name: "Special Topics in Physics"
             rank: 1
           - course_name: "Genetics/Anatomy"
-            rank: 2
+            rank: 1
           - course_name: "Ecology/Evolution"
-            rank: 2
+            rank: 1
       - course_name: "Genetics/Anatomy"
         arrows:
           - course_name: "Physics"
@@ -132,9 +132,9 @@ flow:
           - course_name: "Special Topics in Physics"
             rank: 1
           - course_name: "Genetics/Anatomy"
-            rank: 2
+            rank: 1
           - course_name: "Ecology/Evolution"
-            rank: 2
+            rank: 1
       - course_name: "Chemistry"
         arrows:
           - course_name: "Physics"
@@ -224,8 +224,11 @@ prereqs:
         min_grade: 85
   - course_name: "Genetics/Anatomy"
     prerequisites:
-      - course_name: "Chemistry"
-        min_grade: 60
+      - one_of:
+        - course_name: "Chemistry"
+          min_grade: 60
+        - course_name: "Accelerated Chemistry"
+          min_grade: 60
   - course_name: "Ecology/Evolution"
     prerequisites: []
   - course_name: "Advanced Biology"
