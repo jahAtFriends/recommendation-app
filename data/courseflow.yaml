@@ -184,8 +184,11 @@ prereqs:
     prerequisites:
       - course_name: "Biology"
         min_grade: 90
-      - course_name: "Accelerated Geometry"
-        min_grade: 85
+      - one_of:
+        - course_name: "Accelerated Geometry"
+          min_grade: 85
+        - course_name: "Accelerated Algebra"
+          min_grade: 85
   - course_name: "LPS"
     prerequisites:
       - course_name: "Biology"
