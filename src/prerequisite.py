@@ -60,24 +60,25 @@ class Prerequisite:
         if self.this_course is not None:
             if self.this_course not in student.courses:
                 return False
+            temp = student.courses[self.this_course][0] >= self.min_grade
             return student.courses[self.this_course][0] >= self.min_grade
         # If this is a grade-level pre-req, check the grade level.
         elif len(self.grade_levels) > 0:
             return student.get_grade_level() in self.grade_levels
         else: # Recursively check the pre-reqs
             if len(self.simultaneous) > 0:
-                for course in self.simultaneous:
-                    if not course.check_prerequisite(student):
+                for simul in self.simultaneous:
+                    if not simul.satisfied_by(student):
                         return False
                 return True
             else:
                 for alt in self.alternatives:
-                    if alt.check_prerequisite(student):
+                    if alt.satisfied_by(student):
                         return True
                 return False
         
     @classmethod
-    def build_prereq(cls, data):
+    def build_prereq(cls, data, class_list):
         """
         Recursively build a prerequisite object based on the provided data.
 
@@ -92,24 +93,24 @@ class Prerequisite:
         if isinstance(data, list) and len(data) > 1:
             simuls = []
             for a in data:
-                simuls.append(Prerequisite.build_prereq(a))
+                simuls.append(Prerequisite.build_prereq(a, class_list))
             return Prerequisite(simultaneous=simuls)
         if isinstance(data, list) and len(data) == 1:
-            return Prerequisite.build_prereq(data[0])
+            return Prerequisite.build_prereq(data[0], class_list)
         if 'one_of' in data.keys():
             alts_data = data['one_of']
             alts = []
             for a in alts_data:
-                alts.append(Prerequisite.build_prereq(a))
+                alts.append(Prerequisite.build_prereq(a, class_list))
             return Prerequisite(alternatives=alts)
         if 'all_of' in data.keys():
             all_data = data['all_of']
             simuls = []
             for a in all_data:
-                simuls.append(Prerequisite.build_prereq(a))
+                simuls.append(Prerequisite.build_prereq(a, class_list))
             return Prerequisite(simultaneous=simuls)
         if 'grade_levels' in data.keys():
             return Prerequisite(grade_levels=data['grade_levels'])
         else:
-            prereq_course = data['course']
+            prereq_course = class_list.get_course(data['course_name'])
             return Prerequisite(this_course=prereq_course, min_grade=data['min_grade'])
