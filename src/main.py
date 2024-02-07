@@ -34,14 +34,37 @@ def main():
     recommendations = get_all_recommendations(roster, course_flow, current_year)
     
     #convert recommendations to friendly dictionaries
-    csv_recs = [{'student': student.name, 'recommendations': [course.name for course in recommendations[student]]} for student in recommendations.keys()]
+    csv_recs = [
+        {
+            'student': student.name, 
+            'recommendations': [
+                course.name for course in recommendations[student]
+            ],
+            'current_science_teacher': get_current_science_teacher(student) or '',
+            'current_science_course': get_current_science_course(student).name if get_current_science_course(student) else ''
+        } 
+        for student in recommendations.keys()
+    ]
 
     # Write recommendations to CSV
-    write_csv('recommendations.csv', csv_recs, ['student', 'recommendations'])
+    write_csv('recommendations.csv', csv_recs, ['student', 'recommendations', 'current_science_teacher', 'current_science_course'])
 
     end_time = time.time()
     elapsed_time = round(end_time - start_time, 3)
     print(f'Recommendations completed in approximately {elapsed_time} seconds')
+
+def get_current_science_teacher(student):
+    current_science_course = get_current_science_course(student)
+    if current_science_course is None:
+        return None
+    return student.get_teacher(current_science_course)
+
+def get_current_science_course(student):
+    current_courses = student.get_current_courses(current_year)
+    science_courses = [course for course in current_courses if course.department == 'Science']
+    if len(science_courses) == 0:
+        return None
+    return science_courses[0]
 
 if __name__ == '__main__':
     main()
