@@ -1,9 +1,10 @@
 class Student:
-    def __init__(self, name, class_year):
+    def __init__(self, name, class_year, current_grade):
         self.name = name
         self.courses = {}
         self.recommendations = []
         self.class_year = class_year
+        self.current_grade = current_grade
         
     def add_course(self, course, grade, year):
         """
@@ -19,7 +20,7 @@ class Student:
         """
         self.courses[course] = (grade, year)
     
-    def get_grade_level(self, year):
+    def get_grade_level(self):
         """
         Calculates the grade level of the student based on the given year.
 
@@ -29,7 +30,7 @@ class Student:
         Returns:
         - int: The grade level of the student.
         """
-        return 12 - (self.class_year - year)
+        return self.current_grade
 
     def get_courses(self):
         return self.courses
@@ -78,10 +79,11 @@ class Student:
     
     
 class Roster:
-    def __init__(self):
+    def __init__(self, year):
         self.students = {}
+        self.year = year
 
-    def build_roster_from_data(self, data):
+    def build_roster_from_data(self, data, course_list):
         """
         Builds a roster of students from a list of data and adds academic records.
 
@@ -96,8 +98,10 @@ class Roster:
             identifier = Student.get_identifier(name, class_year)
             student = None
             if identifier not in self.students:
-                self.students[identifier] = Student(name, class_year)
+                student_current_grade = 12 - (class_year - self.year)
+                self.students[identifier] = Student(name, class_year, student_current_grade)
             student = self.students[identifier]
+            course = course_list.get_course(course)
             student.add_course(course, grade, year)
     
     def __iter__(self):
