@@ -1,1 +1,847 @@
-last_name,first_name,class_year,year,course,average
+name,class_year,year,average,instructor,course
+Todd Abell,2025,2022,93,William Marbury,Geometry
+Todd Abell,2025,2022,86,David Brock,Biology
+Claire Akst,2025,2022,80,David Brock,Biology
+Claire Akst,2025,2022,87,Joel Hammer,Accelerated Geometry
+Erika Alamo,2025,2022,94,William Marbury,Geometry
+Erika Alamo,2025,2022,90,Molly Nickerson,Biology
+Qadar Al-Uqdah,2025,2022,65,William Marbury,Geometry
+Qadar Al-Uqdah,2025,2022,75,Molly Nickerson,Biology
+Asa Arnot,2025,2022,95,David Brock,Biology
+Asa Arnot,2025,2022,99,Joel Hammer,Accelerated Geometry
+Lily Baumgartner,2025,2022,93,William Marbury,Geometry
+Lily Baumgartner,2025,2022,87,Molly Nickerson,Biology
+Anna Marie Boia,2025,2022,88,David Brock,Biology
+Anna Marie Boia,2025,2022,82,Joel Hammer,Accelerated Geometry
+Maisie Bolster,2025,2022,93,William Marbury,Geometry
+Maisie Bolster,2025,2022,88,Molly Nickerson,Biology
+Anabelle Bozeman,2025,2022,84,Molly Nickerson,Biology
+Ulysses Brockman,2025,2022,71,Katherine Jenkins,Biology
+Laya Bubshait,2025,2022,84,Molly Nickerson,Biology
+Laya Bubshait,2025,2022,89,Joel Hammer,Accelerated Geometry
+Benjamin Bunkley,2025,2022,86,William Marbury,Geometry
+Benjamin Bunkley,2025,2022,89,Katherine Jenkins,Biology
+Eva Cain,2025,2022,88,David Brock,Biology
+Eva Cain,2025,2022,87,Joel Hammer,Accelerated Geometry
+Arielle Carpenter,2025,2022,70,William Marbury,Geometry
+Arielle Carpenter,2025,2022,71,Katherine Jenkins,Biology
+Victoria Cho,2025,2022,92,Molly Nickerson,Biology
+Victoria Cho,2025,2022,90,Joel Hammer,Accelerated Geometry
+Isabel Clark,2025,2022,90,David Brock,Biology
+Isabel Clark,2025,2022,89,Joel Hammer,Accelerated Geometry
+Mason Cost,2025,2022,88,David Brock,Biology
+Mason Cost,2025,2022,96,Joel Hammer,Accelerated Geometry
+Braeden Daniels,2025,2022,85,Molly Nickerson,Biology
+Braeden Daniels,2025,2022,87,Joel Hammer,Accelerated Geometry
+Tatyana Day,2025,2022,93,William Marbury,Geometry
+Tatyana Day,2025,2022,91,Katherine Jenkins,Biology
+Alexandra Dineen,2025,2022,85,William Marbury,Geometry
+Alexandra Dineen,2025,2022,85,Katherine Jenkins,Biology
+Leif Eisenhardt,2025,2022,85,David Brock,Biology
+Leif Eisenhardt,2025,2022,88,Joel Hammer,Accelerated Geometry
+Alana Finn,2025,2022,82,Katherine Jenkins,Biology
+Ivan Gurachevsky,2025,2022,95,William Marbury,Geometry
+Ivan Gurachevsky,2025,2022,92,Molly Nickerson,Biology
+Matthew Harrison,2025,2022,97,Amber Wagner Gaines,Algebra II
+Matthew Harrison,2025,2022,88,Katherine Jenkins,Biology
+Ronan Healy,2025,2022,94,David Brock,Biology
+Ronan Healy,2025,2022,92,Joel Hammer,Accelerated Geometry
+Connor House,2025,2022,95,Molly Nickerson,Biology
+Connor House,2025,2022,99,Joel Hammer,Accelerated Geometry
+Ejaz Ibrahim,2025,2022,75,William Marbury,Geometry
+Ejaz Ibrahim,2025,2022,78,Molly Nickerson,Biology
+Noah Johansson,2025,2022,91,David Brock,Biology
+Noah Johansson,2025,2022,84,Joel Hammer,Accelerated Geometry
+Ashley Johnson,2025,2022,84,Molly Nickerson,Biology
+Ashley Johnson,2025,2022,87,Joel Hammer,Accelerated Geometry
+Ramsey Kissack,2025,2022,88,Molly Nickerson,Biology
+Ramsey Kissack,2025,2022,96,Joel Hammer,Accelerated Geometry
+Sophia Kranov,2025,2022,95,William Marbury,Geometry
+Sophia Kranov,2025,2022,93,Molly Nickerson,Biology
+Devin Lee,2025,2022,90,William Marbury,Geometry
+Devin Lee,2025,2022,88,Katherine Jenkins,Biology
+Noah Levy,2025,2022,94,Katherine Jenkins,Biology
+Noah Levy,2025,2022,88,Joel Hammer,Accelerated Geometry
+Khalil Lovett,2025,2022,95,William Marbury,Geometry
+Khalil Lovett,2025,2022,88,Molly Nickerson,Biology
+Layla Lunn,2025,2022,80,William Marbury,Geometry
+Layla Lunn,2025,2022,85,Katherine Jenkins,Biology
+Chloe Lyons,2025,2022,95,David Brock,Biology
+Chloe Lyons,2025,2022,100,Joel Hammer,Accelerated Geometry
+Rosa Mangels,2025,2022,70,William Marbury,Geometry
+Rosa Mangels,2025,2022,80,Molly Nickerson,Biology
+Paul Meenan,2025,2022,80,William Marbury,Geometry
+Paul Meenan,2025,2022,84,Katherine Jenkins,Biology
+Louise Mickle,2025,2022,76,William Marbury,Geometry
+Louise Mickle,2025,2022,83,Katherine Jenkins,Biology
+"William Mitchell, II",2025,2022,82,Katherine Jenkins,Biology
+Adina Newman-Toker,2025,2022,93,David Brock,Biology
+Adina Newman-Toker,2025,2022,98,Joel Hammer,Accelerated Geometry
+Adam Nicolson,2025,2022,89,Molly Nickerson,Biology
+Adam Nicolson,2025,2022,90,Carl Schlenger,Accelerated Algebra
+Ella Palmer,2025,2022,97,Molly Nickerson,Biology
+Ella Palmer,2025,2022,100,Joel Hammer,Accelerated Geometry
+Noah Pangaribuan,2025,2022,82,David Brock,Biology
+Noah Pangaribuan,2025,2022,85,Joel Hammer,Accelerated Geometry
+Elaina Pearce,2025,2022,100,Amber Wagner Gaines,Algebra II
+Elaina Pearce,2025,2022,97,Katherine Jenkins,Biology
+Maya Pearce,2025,2022,90,William Marbury,Geometry
+Maya Pearce,2025,2022,80,Molly Nickerson,Biology
+George Principe,2025,2022,97,William Marbury,Geometry
+George Principe,2025,2022,92,Molly Nickerson,Biology
+Sachin Rao,2025,2022,96,William Marbury,Geometry
+Sachin Rao,2025,2022,91,Molly Nickerson,Biology
+Elizabeth Roberts,2025,2022,88,Molly Nickerson,Biology
+Isabelle Ruley,2025,2022,80,Molly Nickerson,Biology
+Louisa Sanchez,2025,2022,94,Amber Wagner Gaines,Algebra II
+Louisa Sanchez,2025,2022,89,David Brock,Biology
+"Quentin Scott, II",2025,2022,82,William Marbury,Geometry
+"Quentin Scott, II",2025,2022,69,Molly Nickerson,Biology
+Asuman Smith,2025,2022,80,William Marbury,Geometry
+Asuman Smith,2025,2022,86,Katherine Jenkins,Biology
+Rhyan Taylor,2025,2022,96,Amber Wagner Gaines,Algebra II
+Rhyan Taylor,2025,2022,90,Molly Nickerson,Biology
+Caroline Toll,2025,2022,96,Molly Nickerson,Biology
+Caroline Toll,2025,2022,96,Joel Hammer,Accelerated Geometry
+Natalie Tompkins,2025,2022,91,Molly Nickerson,Biology
+Natalie Tompkins,2025,2022,91,Joel Hammer,Accelerated Geometry
+Solomon Tompkins,2025,2022,84,William Marbury,Geometry
+Solomon Tompkins,2025,2022,83,Katherine Jenkins,Biology
+Henry Turner,2025,2022,86,Molly Nickerson,Biology
+Henry Turner,2025,2022,98,Joel Hammer,Accelerated Geometry
+Ella West,2025,2022,96,William Marbury,Geometry
+Ella West,2025,2022,91,Molly Nickerson,Biology
+Tommy Wiker,2025,2022,72,Molly Nickerson,Biology
+Ella Wilkerson,2025,2022,83,William Marbury,Geometry
+Ella Wilkerson,2025,2022,78,Molly Nickerson,Biology
+Isabella Wilkes,2025,2022,86,Molly Nickerson,Biology
+Isabella Wilkes,2025,2022,83,Joel Hammer,Accelerated Geometry
+Maya Williams,2025,2022,78,William Marbury,Geometry
+Maya Williams,2025,2022,73,Molly Nickerson,Biology
+William Aaronson,2026,2023,85,Molly Nickerson,Biology
+William Aaronson,2026,2023,87,Carl Schlenger,Accelerated Algebra
+Todd Abell,2025,2023,93,Megan Flora-Quinn,Chemistry
+Todd Abell,2025,2023,93,Emily Gibbs,Algebra II
+William Abernathy,2026,2023,93,David Brock,Biology
+William Abernathy,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Mubarak Adeyemi,2026,2023,92,Katherine Jenkins,Biology
+Mubarak Adeyemi,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Claire Akst,2025,2023,89,Megan Flora-Quinn,Chemistry
+Claire Akst,2025,2023,80,Carl Schlenger,Accelerated Algebra
+Erika Alamo,2025,2023,92,Megan Flora-Quinn,Chemistry
+Erika Alamo,2025,2023,94,Amber Wagner Gaines,Algebra II
+Khadejah Allen,2025,2023,89,Amber Wagner Gaines,Algebra II
+Khadejah Allen,2025,2023,87,Katherine Jenkins,Biology
+Qadar Al-Uqdah,2025,2023,69,Emily Gibbs,Algebra II
+Qadar Al-Uqdah,2025,2023,82,Katherine Jenkins,LPS
+Asa Arnot,2025,2023,98,Hoa Cost,Accelerated Chemistry
+Asa Arnot,2025,2023,98,Carl Schlenger,Accelerated Algebra
+Barbara Arrate,2026,2023,86,David Brock,Biology
+Barbara Arrate,2026,2023,98,Emily Gibbs,Accelerated Geometry
+Lia Bagliani,2025,2023,94,Amber Wagner Gaines,Algebra II
+Lia Bagliani,2025,2023,85,Hoa Cost,Accelerated Chemistry
+Emma Bailey,2026,2023,96,Patrick Kennedy,Geometry
+Emma Bailey,2026,2023,93,Katherine Jenkins,Biology
+Samuel Gideon Balter,2025,2023,89,Molly Nickerson,Biology
+Samuel Gideon Balter,2025,2023,89,Carl Schlenger,Accelerated Algebra
+Emma-Seles Baptiste,2026,2023,89,Molly Nickerson,Biology
+Daryn Barnes,2026,2023,83,Patrick Kennedy,Geometry
+Daryn Barnes,2026,2023,77,Molly Nickerson,Biology
+Kohena Basu,2025,2023,71,Patrick Kennedy,Geometry
+Kohena Basu,2025,2023,75,Katherine Jenkins,Biology
+Jacob Batho,2026,2023,89,David Brock,Biology
+Jacob Batho,2026,2023,90,Emily Gibbs,Accelerated Geometry
+Lily Baumgartner,2025,2023,94,Amber Wagner Gaines,Algebra II
+Lily Baumgartner,2025,2023,88,Megan Flora-Quinn,Accelerated Chemistry
+Rebekah Bizimungu,2026,2023,84,Patrick Kennedy,Geometry
+Rebekah Bizimungu,2026,2023,86,Molly Nickerson,Biology
+Anna Marie Boia,2025,2023,90,Emily Gibbs,Algebra II
+Anna Marie Boia,2025,2023,82,Megan Flora-Quinn,Accelerated Chemistry
+Maisie Bolster,2025,2023,92,Emily Gibbs,Algebra II
+Maisie Bolster,2025,2023,83,Megan Flora-Quinn,Accelerated Chemistry
+Anabelle Bozeman,2025,2023,85,Amber Wagner Gaines,Algebra II
+Anabelle Bozeman,2025,2023,86,Katherine Jenkins,LPS
+Anabelle Bozeman,2025,2023,87,Jordan Wright,Geometry
+Nicholas Brazhnikov,2026,2023,92,Katherine Jenkins,Biology
+Nicholas Brazhnikov,2026,2023,91,Emily Gibbs,Accelerated Geometry
+Ulysses Brockman,2025,2023,85,Patrick Kennedy,Geometry
+Ulysses Brockman,2025,2023,81,Katherine Jenkins,LPS
+Laya Bubshait,2025,2023,94,Megan Flora-Quinn,Accelerated Chemistry
+Laya Bubshait,2025,2023,92,Carl Schlenger,Accelerated Algebra
+Theodore Buck,2026,2023,97,Katherine Jenkins,Biology
+Theodore Buck,2026,2023,97,Emily Gibbs,Accelerated Geometry
+Benjamin Bunkley,2025,2023,79,Amber Wagner Gaines,Algebra II
+Benjamin Bunkley,2025,2023,76,Hoa Cost,Accelerated Chemistry
+Eva Cain,2025,2023,95,Megan Flora-Quinn,Accelerated Chemistry
+Eva Cain,2025,2023,90,Carl Schlenger,Accelerated Algebra
+Tessa Calabresi,2025,2023,95,Amber Wagner Gaines,Precalculus
+Tessa Calabresi,2025,2023,93,Katherine Jenkins,Biology
+Arielle Carpenter,2025,2023,76,Megan Flora-Quinn,Chemistry
+Arielle Carpenter,2025,2023,80,Amber Wagner Gaines,Algebra II
+Asha Chhetri,2026,2023,94,Molly Nickerson,Biology
+Asha Chhetri,2026,2023,93,Emily Gibbs,Accelerated Geometry
+Asish Chhetri,2026,2023,90,Patrick Kennedy,Geometry
+Asish Chhetri,2026,2023,87,Katherine Jenkins,Biology
+Victoria Cho,2025,2023,93,Megan Flora-Quinn,Accelerated Chemistry
+Victoria Cho,2025,2023,91,Carl Schlenger,Accelerated Algebra
+Isabel Clark,2025,2023,91,Hoa Cost,Accelerated Chemistry
+Isabel Clark,2025,2023,92,Carl Schlenger,Accelerated Algebra
+Yamece Compton-Long,2026,2023,86,Patrick Kennedy,Geometry
+Yamece Compton-Long,2026,2023,86,Katherine Jenkins,Biology
+Neil Cooper,2026,2023,97,Katherine Jenkins,Biology
+Neil Cooper,2026,2023,99,Emily Gibbs,Accelerated Geometry
+Mason Cost,2025,2023,95,Hoa Cost,Accelerated Chemistry
+Mason Cost,2025,2023,92,Carl Schlenger,Accelerated Algebra
+Giuliana Coven,2026,2023,86,David Brock,Biology
+Giuliana Coven,2026,2023,87,Emily Gibbs,Accelerated Geometry
+Amira Dancer,2026,2023,79,Patrick Kennedy,Geometry
+Amira Dancer,2026,2023,77,Molly Nickerson,Biology
+Braeden Daniels,2025,2023,86,Hoa Cost,Accelerated Chemistry
+Braeden Daniels,2025,2023,88,Carl Schlenger,Accelerated Algebra
+Tatyana Day,2025,2023,95,Amber Wagner Gaines,Algebra II
+Tatyana Day,2025,2023,93,Megan Flora-Quinn,Accelerated Chemistry
+Elliott DeFilippis,2026,2023,69,Molly Nickerson,Biology
+Alexandra Dineen,2025,2023,84,Megan Flora-Quinn,Chemistry
+Alexandra Dineen,2025,2023,80,Amber Wagner Gaines,Algebra II
+Isaiah Drake,2026,2023,83,Patrick Kennedy,Geometry
+Isaiah Drake,2026,2023,82,Molly Nickerson,Biology
+Sebastian Egginton,2026,2023,93,Molly Nickerson,Biology
+Sebastian Egginton,2026,2023,98,Emily Gibbs,Accelerated Geometry
+Leif Eisenhardt,2025,2023,91,Hoa Cost,Accelerated Chemistry
+Leif Eisenhardt,2025,2023,88,Carl Schlenger,Accelerated Algebra
+Maya Ellenbogen,2026,2023,95,Molly Nickerson,Biology
+Maya Ellenbogen,2026,2023,96,Emily Gibbs,Accelerated Geometry
+Evangeline Fehskens,2026,2023,76,David Brock,Biology
+Alana Finn,2025,2023,80,Patrick Kennedy,Geometry
+Alana Finn,2025,2023,86,Katherine Jenkins,LPS
+William Foley,2026,2023,90,Patrick Kennedy,Geometry
+William Foley,2026,2023,85,Katherine Jenkins,Biology
+Samantha Funk,2026,2023,81,Katherine Jenkins,Biology
+Leah Fuzayl,2026,2023,93,Patrick Kennedy,Geometry
+Leah Fuzayl,2026,2023,89,David Brock,Biology
+Madyson Garrett,2026,2023,93,Patrick Kennedy,Geometry
+Madyson Garrett,2026,2023,90,Katherine Jenkins,Biology
+Ivan Gurachevsky,2025,2023,99,Amber Wagner Gaines,Algebra II
+Ivan Gurachevsky,2025,2023,97,Megan Flora-Quinn,Accelerated Chemistry
+Adler Hall,2026,2023,93,Molly Nickerson,Biology
+Adler Hall,2026,2023,97,Emily Gibbs,Accelerated Geometry
+Lara Hams,2026,2023,93,Molly Nickerson,Biology
+Lara Hams,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Matthew Harrison,2025,2023,85,Hoa Cost,Accelerated Chemistry
+Matthew Harrison,2025,2023,85,Carl Schlenger,Accelerated Algebra
+Ronan Healy,2025,2023,95,Megan Flora-Quinn,Accelerated Chemistry
+Ronan Healy,2025,2023,87,Carl Schlenger,Accelerated Algebra
+Zoe Hearn,2026,2023,91,Molly Nickerson,Biology
+Zoe Hearn,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Sincere Heughan,2026,2023,93,David Brock,Biology
+Sincere Heughan,2026,2023,97,Emily Gibbs,Accelerated Geometry
+Lincoln Holmes,2026,2023,85,Patrick Kennedy,Geometry
+Lincoln Holmes,2026,2023,80,Katherine Jenkins,Biology
+Connor House,2025,2023,100,Hoa Cost,Accelerated Chemistry
+Connor House,2025,2023,98,Carl Schlenger,Accelerated Algebra
+Ejaz Ibrahim,2025,2023,90,Megan Flora-Quinn,Chemistry
+Ejaz Ibrahim,2025,2023,83,Emily Gibbs,Algebra II
+Semir Ibrahim,2026,2023,92,Katherine Jenkins,Biology
+Semir Ibrahim,2026,2023,90,Emily Gibbs,Accelerated Geometry
+Bryce Ifill,2026,2023,68,Patrick Kennedy,Geometry
+Bryce Ifill,2026,2023,73,Katherine Jenkins,Biology
+Andrew Irwin,2026,2023,90,Katherine Jenkins,Biology
+C. Mitchell Jackson,2026,2023,91,Patrick Kennedy,Geometry
+C. Mitchell Jackson,2026,2023,83,David Brock,Biology
+Charlotte Jacobs,2026,2023,88,Molly Nickerson,Biology
+Charlotte Jacobs,2026,2023,93,Emily Gibbs,Accelerated Geometry
+Noah Johansson,2025,2023,92,Megan Flora-Quinn,Accelerated Chemistry
+Noah Johansson,2025,2023,85,Carl Schlenger,Accelerated Algebra
+Ashley Johnson,2025,2023,85,Hoa Cost,Accelerated Chemistry
+Ashley Johnson,2025,2023,83,Carl Schlenger,Accelerated Algebra
+Max Keller,2026,2023,95,Patrick Kennedy,Geometry
+Max Keller,2026,2023,84,Katherine Jenkins,Biology
+Ramsey Kissack,2025,2023,92,Hoa Cost,Accelerated Chemistry
+Ramsey Kissack,2025,2023,89,Carl Schlenger,Accelerated Algebra
+Maxwell Klinefelter,2025,2023,97,Katherine Jenkins,Biology
+Micah Kramer,2026,2023,93,Molly Nickerson,Biology
+Micah Kramer,2026,2023,95,Emily Gibbs,Accelerated Geometry
+Sophia Kranov,2025,2023,96,Emily Gibbs,Algebra II
+Sophia Kranov,2025,2023,91,Megan Flora-Quinn,Accelerated Chemistry
+Ingrid Laurens,2026,2023,89,David Brock,Biology
+Ingrid Laurens,2026,2023,87,Emily Gibbs,Accelerated Geometry
+Devin Lee,2025,2023,84,Emily Gibbs,Algebra II
+Devin Lee,2025,2023,78,Megan Flora-Quinn,Accelerated Chemistry
+Noah Levy,2025,2023,94,Megan Flora-Quinn,Accelerated Chemistry
+Noah Levy,2025,2023,93,Carl Schlenger,Accelerated Algebra
+Nathaniel Lin,2026,2023,95,David Brock,Biology
+Nathaniel Lin,2026,2023,99,Emily Gibbs,Accelerated Geometry
+Benjamin Long,2026,2023,94,Katherine Jenkins,Biology
+Benjamin Long,2026,2023,95,Emily Gibbs,Accelerated Geometry
+Khalil Lovett,2025,2023,97,Amber Wagner Gaines,Algebra II
+Khalil Lovett,2025,2023,93,Hoa Cost,Accelerated Chemistry
+Ethan Lun,2025,2023,87,Katherine Jenkins,Biology
+Ethan Lun,2025,2023,84,Carl Schlenger,Accelerated Algebra
+Layla Lunn,2025,2023,90,Megan Flora-Quinn,Chemistry
+Layla Lunn,2025,2023,85,Amber Wagner Gaines,Algebra II
+Chloe Lyons,2025,2023,100,Megan Flora-Quinn,Accelerated Chemistry
+Chloe Lyons,2025,2023,98,Carl Schlenger,Accelerated Algebra
+Coco Lyons,2026,2023,82,Katherine Jenkins,Biology
+Rosa Mangels,2025,2023,76,Megan Flora-Quinn,Chemistry
+Rosa Mangels,2025,2023,74,Amber Wagner Gaines,Algebra II
+Jullian Marquez,2026,2023,85,Patrick Kennedy,Geometry
+Jullian Marquez,2026,2023,81,Katherine Jenkins,Biology
+Lillian Marr,2026,2023,92,David Brock,Biology
+Lillian Marr,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Logan Matthews,2026,2023,72,Patrick Kennedy,Geometry
+Logan Matthews,2026,2023,74,Molly Nickerson,Biology
+Eleanor McDonald,2026,2023,73,Molly Nickerson,Biology
+Paul Meenan,2025,2023,89,Megan Flora-Quinn,Chemistry
+Paul Meenan,2025,2023,83,Emily Gibbs,Algebra II
+Louise Mickle,2025,2023,79,Megan Flora-Quinn,Chemistry
+Louise Mickle,2025,2023,87,Amber Wagner Gaines,Algebra II
+"William Mitchell, II",2025,2023,87,Megan Flora-Quinn,Chemistry
+"William Mitchell, II",2025,2023,85,Emily Gibbs,Algebra II
+"William Mitchell, II",2025,2023,90,Jordan Wright,Geometry
+"Christopher Moore, II",2026,2023,72,Patrick Kennedy,Geometry
+"Christopher Moore, II",2026,2023,79,Katherine Jenkins,Biology
+Indigo Mosley,2026,2023,90,Molly Nickerson,Biology
+Indigo Mosley,2026,2023,94,Emily Gibbs,Accelerated Geometry
+John Motz,2026,2023,88,Katherine Jenkins,Biology
+John Motz,2026,2023,87,Emily Gibbs,Accelerated Geometry
+Daphne Mueller-Kralli,2026,2023,86,Patrick Kennedy,Geometry
+Daphne Mueller-Kralli,2026,2023,85,Molly Nickerson,Biology
+Jonathan Negin,2026,2023,96,Patrick Kennedy,Geometry
+Jonathan Negin,2026,2023,84,David Brock,Biology
+Adina Newman-Toker,2025,2023,96,Megan Flora-Quinn,Accelerated Chemistry
+Adina Newman-Toker,2025,2023,96,Carl Schlenger,Accelerated Algebra
+Adam Nicolson,2025,2023,97,Hoa Cost,Accelerated Chemistry
+Leona Oduor,2026,2023,79,Patrick Kennedy,Geometry
+Leona Oduor,2026,2023,81,Molly Nickerson,Biology
+Noah Ono Bobi,2026,2023,69,Molly Nickerson,Biology
+Isla Ottmann,2026,2023,81,Patrick Kennedy,Geometry
+Isla Ottmann,2026,2023,83,Katherine Jenkins,Biology
+Sadie Palermo,2026,2023,95,Katherine Jenkins,Biology
+Sadie Palermo,2026,2023,90,Emily Gibbs,Accelerated Geometry
+Ella Palmer,2025,2023,100,Megan Flora-Quinn,Accelerated Chemistry
+Ella Palmer,2025,2023,100,Carl Schlenger,Accelerated Algebra
+Hannah Pangaribuan,2026,2023,90,David Brock,Biology
+Hannah Pangaribuan,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Noah Pangaribuan,2025,2023,86,Hoa Cost,Accelerated Chemistry
+Noah Pangaribuan,2025,2023,88,Carl Schlenger,Accelerated Algebra
+Rhea Pathak,2026,2023,90,Molly Nickerson,Biology
+Rhea Pathak,2026,2023,90,Emily Gibbs,Accelerated Geometry
+Elaina Pearce,2025,2023,96,Hoa Cost,Accelerated Chemistry
+Elaina Pearce,2025,2023,97,Carl Schlenger,Accelerated Algebra
+Maya Pearce,2025,2023,90,Megan Flora-Quinn,Chemistry
+Maya Pearce,2025,2023,86,Emily Gibbs,Algebra II
+Graham Porter,2026,2023,92,Molly Nickerson,Biology
+Graham Porter,2026,2023,98,Emily Gibbs,Accelerated Geometry
+Olivia Prichett,2026,2023,97,Katherine Jenkins,Biology
+Olivia Prichett,2026,2023,97,Emily Gibbs,Accelerated Geometry
+George Principe,2025,2023,93,Amber Wagner Gaines,Algebra II
+George Principe,2025,2023,91,Hoa Cost,Accelerated Chemistry
+Sachin Rao,2025,2023,95,Emily Gibbs,Algebra II
+Sachin Rao,2025,2023,93,Megan Flora-Quinn,Accelerated Chemistry
+Luke Ripke,2026,2023,92,Molly Nickerson,Biology
+Luke Ripke,2026,2023,98,Emily Gibbs,Accelerated Geometry
+Elizabeth Roberts,2025,2023,92,Amber Wagner Gaines,Algebra II
+Elizabeth Roberts,2025,2023,90,Katherine Jenkins,LPS
+Elizabeth Roberts,2025,2023,87,Jordan Wright,Geometry
+Anaya Robinson,2026,2023,92,Emily Gibbs,Algebra II
+Anaya Robinson,2026,2023,89,Katherine Jenkins,Biology
+Sofia  Rodriguez,2026,2023,89,Molly Nickerson,Biology
+Sofia  Rodriguez,2026,2023,87,Emily Gibbs,Accelerated Geometry
+Alexandra Rosenthal,2026,2023,98,Molly Nickerson,Biology
+Alexandra Rosenthal,2026,2023,100,Emily Gibbs,Accelerated Geometry
+Hannah Ruley,2026,2023,94,Molly Nickerson,Biology
+Hannah Ruley,2026,2023,96,Emily Gibbs,Accelerated Geometry
+Isabelle Ruley,2025,2023,88,Megan Flora-Quinn,Chemistry
+Isabelle Ruley,2025,2023,85,Amber Wagner Gaines,Algebra II
+Isabelle Ruley,2025,2023,86,Jordan Wright,Geometry
+Leonora Ryscavage,2026,2023,91,Molly Nickerson,Biology
+Leonora Ryscavage,2026,2023,90,Emily Gibbs,Accelerated Geometry
+Louisa Sanchez,2025,2023,94,Amber Wagner Gaines,Precalculus
+Louisa Sanchez,2025,2023,96,Hoa Cost,Accelerated Chemistry
+"Quentin Scott, II",2025,2023,83,Megan Flora-Quinn,Chemistry
+"Quentin Scott, II",2025,2023,80,Amber Wagner Gaines,Algebra II
+Gabriel Sellers,2026,2023,74,Patrick Kennedy,Geometry
+Gabriel Sellers,2026,2023,80,David Brock,Biology
+Asuman Smith,2025,2023,78,Megan Flora-Quinn,Chemistry
+Asuman Smith,2025,2023,73,Emily Gibbs,Algebra II
+Jackson Solliday,2026,2023,83,Patrick Kennedy,Geometry
+Jackson Solliday,2026,2023,78,David Brock,Biology
+Alexander Stevenson,2026,2023,88,Patrick Kennedy,Geometry
+Alexander Stevenson,2026,2023,83,Molly Nickerson,Biology
+Lincoln Summers,2026,2023,94,Katherine Jenkins,Biology
+Lincoln Summers,2026,2023,91,Emily Gibbs,Accelerated Geometry
+Abigail  Szokoly,2026,2023,96,Patrick Kennedy,Geometry
+Abigail  Szokoly,2026,2023,94,Molly Nickerson,Biology
+Rhyan Taylor,2025,2023,94,Amber Wagner Gaines,Precalculus
+Rhyan Taylor,2025,2023,92,Hoa Cost,Accelerated Chemistry
+Morgan Thomasson-Small,2026,2023,91,Patrick Kennedy,Geometry
+Morgan Thomasson-Small,2026,2023,84,David Brock,Biology
+Kaeden Todman,2026,2023,89,Katherine Jenkins,Biology
+Kaeden Todman,2026,2023,93,Emily Gibbs,Accelerated Geometry
+Caroline Toll,2025,2023,94,Hoa Cost,Accelerated Chemistry
+Caroline Toll,2025,2023,96,Carl Schlenger,Accelerated Algebra
+Natalie Tompkins,2025,2023,95,Megan Flora-Quinn,Accelerated Chemistry
+Natalie Tompkins,2025,2023,93,Carl Schlenger,Accelerated Algebra
+Solomon Tompkins,2025,2023,82,Megan Flora-Quinn,Chemistry
+Solomon Tompkins,2025,2023,84,Amber Wagner Gaines,Algebra II
+Henry Turner,2025,2023,93,Megan Flora-Quinn,Chemistry
+Henry Turner,2025,2023,90,Carl Schlenger,Accelerated Algebra
+Ruby Turner,2026,2023,89,Patrick Kennedy,Geometry
+Ruby Turner,2026,2023,84,Katherine Jenkins,Biology
+Greyson Vaslow,2026,2023,95,Katherine Jenkins,Biology
+Greyson Vaslow,2026,2023,95,Emily Gibbs,Accelerated Geometry
+Ella West,2025,2023,97,Amber Wagner Gaines,Algebra II
+Ella West,2025,2023,89,Hoa Cost,Accelerated Chemistry
+Nicolas White,2026,2023,92,Molly Nickerson,Biology
+Tommy Wiker,2025,2023,82,Patrick Kennedy,Geometry
+Tommy Wiker,2025,2023,78,Katherine Jenkins,LPS
+Ella Wilkerson,2025,2023,88,Megan Flora-Quinn,Chemistry
+Ella Wilkerson,2025,2023,89,Amber Wagner Gaines,Algebra II
+Isabella Wilkes,2025,2023,85,Hoa Cost,Accelerated Chemistry
+Isabella Wilkes,2025,2023,84,Carl Schlenger,Accelerated Algebra
+Maya Williams,2025,2023,82,Amber Wagner Gaines,Algebra II
+Maya Williams,2025,2023,66,Hoa Cost,Accelerated Chemistry
+Braxton Wilner,2026,2023,72,Patrick Kennedy,Geometry
+Braxton Wilner,2026,2023,69,Molly Nickerson,Biology
+Emory Woods,2026,2023,80,Patrick Kennedy,Geometry
+Emory Woods,2026,2023,79,Molly Nickerson,Biology
+Oliver Wu,2026,2023,98,Patrick Kennedy,Geometry
+Oliver Wu,2026,2023,93,Molly Nickerson,Biology
+Dinghui Xu,2026,2023,88,David Brock,Biology
+Dinghui Xu,2026,2023,94,Emily Gibbs,Accelerated Geometry
+Aiden Yang,2026,2023,97,Katherine Jenkins,Biology
+Aiden Yang,2026,2023,100,Carl Schlenger,Accelerated Algebra
+Aiden Yang,2026,2023,99,Jordan Wright,Geometry
+William Aaronson,2026,2024,90,Hoa Cost,Accelerated Chemistry
+Todd Abell,2025,2024,98,Vincent Bonina,Physics
+Todd Abell,2025,2024,87,Sophie Kessler,Precalculus
+William Abernathy,2026,2024,90,Megan Flora-Quinn,Accelerated Chemistry
+William Abernathy,2026,2024,93,Carl Schlenger,Accelerated Algebra
+Mubarak Adeyemi,2026,2024,90,Megan Flora-Quinn,Accelerated Chemistry
+Mubarak Adeyemi,2026,2024,91,Carl Schlenger,Accelerated Algebra
+Claire Akst,2025,2024,91,Viktor Polyak,Accelerated Physics
+Erika Alamo,2025,2024,98,Vincent Bonina,Physics
+Erika Alamo,2025,2024,88,Sophie Kessler,Precalculus
+Logan Alicea,2027,2024,70,Katherine Jenkins,Biology
+Khadejah Allen,2025,2024,87,Amber Wagner Gaines,Precalculus
+Khadejah Allen,2025,2024,79,Hoa Cost,Accelerated Chemistry
+Günes Altunel,2025,2024,95,Carl Schlenger,Accelerated Algebra
+Günes Altunel,2025,2024,94,Viktor Polyak,Accelerated Physics
+Qadar Al-Uqdah,2025,2024,88,Megan Flora-Quinn,Chemistry
+Qadar Al-Uqdah,2025,2024,81,Sophie Kessler,Precalculus
+Charlotte Andrews,2027,2024,94,Molly Nickerson,Biology
+Charlotte Andrews,2027,2024,96,Emily Gibbs,Accelerated Geometry
+Asa Arnot,2025,2024,98,Molly Nickerson,Ecology/Evolution
+Asa Arnot,2025,2024,96,David Brock,Genetics/Anatomy
+Barbara Arrate,2026,2024,97,Megan Flora-Quinn,Chemistry
+Barbara Arrate,2026,2024,95,Emily Gibbs,Accelerated Algebra
+Trevor Atkinson,2026,2024,82,Megan Flora-Quinn,Chemistry
+Trevor Atkinson,2026,2024,88,Emily Gibbs,Algebra II
+Lia Bagliani,2025,2024,94,Sophie Kessler,Precalculus
+Lia Bagliani,2025,2024,98,Vincent Bonina,Physics
+Emma Bailey,2026,2024,95,Emily Gibbs,Algebra II
+Emma Bailey,2026,2024,85,Megan Flora-Quinn,Accelerated Chemistry
+Samuel Gideon Balter,2025,2024,91,Hoa Cost,Accelerated Chemistry
+Emma-Seles Baptiste,2026,2024,94,Amber Wagner Gaines,Algebra II
+Emma-Seles Baptiste,2026,2024,99,Megan Flora-Quinn,Chemistry
+Emma-Seles Baptiste,2026,2024,96,Jordan Wright,Geometry
+Daryn Barnes,2026,2024,84,Megan Flora-Quinn,Chemistry
+Daryn Barnes,2026,2024,81,Amber Wagner Gaines,Algebra II
+Kohena Basu,2025,2024,80,Megan Flora-Quinn,Chemistry
+Kohena Basu,2025,2024,62,Amber Wagner Gaines,Algebra II
+Jacob Batho,2026,2024,85,Megan Flora-Quinn,Accelerated Chemistry
+Jacob Batho,2026,2024,88,Carl Schlenger,Accelerated Algebra
+Lily Baumgartner,2025,2024,95,Sophie Kessler,Precalculus
+Lily Baumgartner,2025,2024,94,Viktor Polyak,Accelerated Physics
+Henry Berliner,2027,2024,88,Katherine Jenkins,Biology
+Jasmine Bishop,2027,2024,96,Katherine Jenkins,Biology
+Rebekah Bizimungu,2026,2024,94,Megan Flora-Quinn,Chemistry
+Rebekah Bizimungu,2026,2024,90,Emily Gibbs,Algebra II
+Anna Marie Boia,2025,2024,86,Sophie Kessler,Precalculus
+Anna Marie Boia,2025,2024,96,Vincent Bonina,Physics
+Maisie Bolster,2025,2024,95,Vincent Bonina,Physics
+Maisie Bolster,2025,2024,85,Amber Wagner Gaines,Precalculus
+Anabelle Bozeman,2025,2024,91,Megan Flora-Quinn,Chemistry
+Anabelle Bozeman,2025,2024,86,Sophie Kessler,Precalculus
+Nicholas Brazhnikov,2026,2024,82,Megan Flora-Quinn,Accelerated Chemistry
+Nicholas Brazhnikov,2026,2024,83,Carl Schlenger,Accelerated Algebra
+Ulysses Brockman,2025,2024,82,Megan Flora-Quinn,Chemistry
+Ulysses Brockman,2025,2024,79,Amber Wagner Gaines,Algebra II
+Ava Brooks,2027,2024,74,Patrick Kennedy,Geometry
+Ava Brooks,2027,2024,82,Katherine Jenkins,Biology
+Rhys Brown,2027,2024,93,Patrick Kennedy,Geometry
+Rhys Brown,2027,2024,86,Molly Nickerson,Biology
+Laya Bubshait,2025,2024,100,Vincent Bonina,Accelerated Physics
+Theodore Buck,2026,2024,97,Hoa Cost,Accelerated Chemistry
+Theodore Buck,2026,2024,97,Carl Schlenger,Accelerated Algebra
+Benjamin Bunkley,2025,2024,94,Vincent Bonina,Physics
+Benjamin Bunkley,2025,2024,84,Sophie Kessler,Precalculus
+Travone Cabbagestalk,2027,2024,82,Amber Wagner Gaines,Algebra II
+Travone Cabbagestalk,2027,2024,80,David Brock,Biology
+Penelope Caffo,2027,2024,96,David Brock,Biology
+Penelope Caffo,2027,2024,96,Emily Gibbs,Accelerated Geometry
+Eva Cain,2025,2024,97,Vincent Bonina,Accelerated Physics
+Tessa Calabresi,2025,2024,92,Megan Flora-Quinn,Accelerated Chemistry
+Josephine Cannon,2027,2024,82,David Brock,Biology
+William Carnell,2027,2024,94,Molly Nickerson,Biology
+William Carnell,2027,2024,92,Emily Gibbs,Accelerated Geometry
+Arielle Carpenter,2025,2024,77,Sophie Kessler,Precalculus
+Lailah Carter,2027,2024,89,Patrick Kennedy,Geometry
+Lailah Carter,2027,2024,89,Katherine Jenkins,Biology
+Freddy Casey,2027,2024,97,Patrick Kennedy,Geometry
+Freddy Casey,2027,2024,88,Molly Nickerson,Biology
+Ellisah Catten,2027,2024,91,Katherine Jenkins,Biology
+Ellisah Catten,2027,2024,90,Emily Gibbs,Accelerated Geometry
+Jazmin Chamblee-Robinson,2027,2024,86,Patrick Kennedy,Geometry
+Jazmin Chamblee-Robinson,2027,2024,81,Molly Nickerson,Biology
+Asha Chhetri,2026,2024,89,Hoa Cost,Accelerated Chemistry
+Asha Chhetri,2026,2024,85,Emily Gibbs,Accelerated Algebra
+Asish Chhetri,2026,2024,87,Amber Wagner Gaines,Algebra II
+Asish Chhetri,2026,2024,78,Hoa Cost,Accelerated Chemistry
+Victoria Cho,2025,2024,91,Viktor Polyak,Accelerated Physics
+Maile Cole,2027,2024,96,Patrick Kennedy,Geometry
+Maile Cole,2027,2024,93,Molly Nickerson,Biology
+Yamece Compton-Long,2026,2024,94,Emily Gibbs,Algebra II
+Yamece Compton-Long,2026,2024,87,Megan Flora-Quinn,Chemistry
+Neil Cooper,2026,2024,93,Megan Flora-Quinn,Accelerated Chemistry
+Neil Cooper,2026,2024,97,Carl Schlenger,Accelerated Algebra
+Mason Cost,2025,2024,92,Viktor Polyak,Accelerated Physics
+Giuliana Coven,2026,2024,90,Megan Flora-Quinn,Accelerated Chemistry
+Giuliana Coven,2026,2024,86,Carl Schlenger,Accelerated Algebra
+Alonah Crockett,2026,2024,83,Patrick Kennedy,Geometry
+Alonah Crockett,2026,2024,85,Megan Flora-Quinn,Chemistry
+Amira Dancer,2026,2024,84,Emily Gibbs,Algebra II
+Amira Dancer,2026,2024,80,Megan Flora-Quinn,Chemistry
+Braeden Daniels,2025,2024,97,Vincent Bonina,Accelerated Physics
+Scarlett Davis,2025,2024,92,Vincent Bonina,Physics
+Zuri Davis,2027,2024,93,Molly Nickerson,Biology
+Zuri Davis,2027,2024,95,Emily Gibbs,Accelerated Geometry
+Tatyana Day,2025,2024,94,Sophie Kessler,Precalculus
+Tatyana Day,2025,2024,96,Vincent Bonina,Physics
+Elliott DeFilippis,2026,2024,66,Patrick Kennedy,Geometry
+Elliott DeFilippis,2026,2024,75,Katherine Jenkins,LPS
+Alexandra Dineen,2025,2024,86,Vincent Bonina,Physics
+Alexandra Dineen,2025,2024,84,Sophie Kessler,Precalculus
+Isaiah Drake,2026,2024,78,Megan Flora-Quinn,Chemistry
+Isaiah Drake,2026,2024,78,Amber Wagner Gaines,Algebra II
+Nikki Eggert,2027,2024,90,Patrick Kennedy,Geometry
+Nikki Eggert,2027,2024,92,Molly Nickerson,Biology
+Sebastian Egginton,2026,2024,97,Hoa Cost,Accelerated Chemistry
+Sebastian Egginton,2026,2024,96,Carl Schlenger,Accelerated Algebra
+Leif Eisenhardt,2025,2024,95,Vincent Bonina,Accelerated Physics
+Maya Ellenbogen,2026,2024,95,Megan Flora-Quinn,Accelerated Chemistry
+Maya Ellenbogen,2026,2024,93,Carl Schlenger,Accelerated Algebra
+Maya Ellenbogen,2026,2024,96,Molly Nickerson,Ecology/Evolution
+Amaia Ellis,2027,2024,95,Katherine Jenkins,Biology
+Amaia Ellis,2027,2024,91,Emily Gibbs,Accelerated Geometry
+Isabella Epstein,2027,2024,81,Patrick Kennedy,Geometry
+Isabella Epstein,2027,2024,72,David Brock,Biology
+Ana Fader,2027,2024,94,Katherine Jenkins,Biology
+Ana Fader,2027,2024,90,Emily Gibbs,Accelerated Geometry
+Evangeline Fehskens,2026,2024,72,Patrick Kennedy,Geometry
+Evangeline Fehskens,2026,2024,92,Katherine Jenkins,LPS
+Alana Finn,2025,2024,82,Megan Flora-Quinn,Chemistry
+Alana Finn,2025,2024,88,Amber Wagner Gaines,Algebra II
+William Foley,2026,2024,80,Megan Flora-Quinn,Chemistry
+William Foley,2026,2024,89,Amber Wagner Gaines,Algebra II
+Samantha Funk,2026,2024,94,Amber Wagner Gaines,Algebra II
+Samantha Funk,2026,2024,91,Katherine Jenkins,LPS
+Samantha Funk,2026,2024,95,Jordan Wright,Geometry
+Leah Fuzayl,2026,2024,95,Emily Gibbs,Algebra II
+Leah Fuzayl,2026,2024,86,Hoa Cost,Accelerated Chemistry
+Madyson Garrett,2026,2024,96,Amber Wagner Gaines,Algebra II
+Madyson Garrett,2026,2024,79,Hoa Cost,Accelerated Chemistry
+Nicola Garza,2026,2024,98,Hoa Cost,Accelerated Chemistry
+Nicola Garza,2026,2024,98,Carl Schlenger,Accelerated Algebra
+Zoey Gauss,2027,2024,93,Patrick Kennedy,Geometry
+Zoey Gauss,2027,2024,90,Molly Nickerson,Biology
+Ava Genius,2027,2024,80,Patrick Kennedy,Geometry
+Ava Genius,2027,2024,75,David Brock,Biology
+Gavin George,2027,2024,88,Katherine Jenkins,Biology
+Kayla Giddins,2027,2024,73,Patrick Kennedy,Geometry
+Kayla Giddins,2027,2024,84,Molly Nickerson,Biology
+Juliet Glorioso,2027,2024,84,Patrick Kennedy,Geometry
+Juliet Glorioso,2027,2024,79,Molly Nickerson,Biology
+Bailey Gomes,2027,2024,91,Patrick Kennedy,Geometry
+Bailey Gomes,2027,2024,91,Katherine Jenkins,Biology
+August Green,2027,2024,90,Molly Nickerson,Biology
+August Green,2027,2024,94,Emily Gibbs,Accelerated Geometry
+Levi Greene,2027,2024,89,David Brock,Biology
+Levi Greene,2027,2024,87,Emily Gibbs,Accelerated Algebra
+Hillary Grieveson,2027,2024,90,Molly Nickerson,Biology
+Hillary Grieveson,2027,2024,87,Emily Gibbs,Accelerated Geometry
+Ivan Gurachevsky,2025,2024,96,Sophie Kessler,Precalculus
+Ivan Gurachevsky,2025,2024,91,Viktor Polyak,Accelerated Physics
+Lucy Guyton,2027,2024,84,David Brock,Biology
+Lucy Guyton,2027,2024,82,Emily Gibbs,Accelerated Geometry
+Kofi Hair-Ralston,2027,2024,93,Katherine Jenkins,Biology
+Kofi Hair-Ralston,2027,2024,95,Emily Gibbs,Accelerated Geometry
+Adler Hall,2026,2024,96,Hoa Cost,Accelerated Chemistry
+Adler Hall,2026,2024,94,Emily Gibbs,Accelerated Algebra
+Lara Hams,2026,2024,96,Hoa Cost,Accelerated Chemistry
+Lara Hams,2026,2024,97,Carl Schlenger,Accelerated Algebra
+Gabriel Hanes,2027,2024,97,Patrick Kennedy,Geometry
+Gabriel Hanes,2027,2024,91,Katherine Jenkins,Biology
+Christine Hardaway,2027,2024,87,Emily Gibbs,Algebra II
+Christine Hardaway,2027,2024,76,David Brock,Biology
+Matthew Harrison,2025,2024,96,Viktor Polyak,Accelerated Physics
+Ronan Healy,2025,2024,96,Vincent Bonina,Accelerated Physics
+Zoe Hearn,2026,2024,93,Hoa Cost,Accelerated Chemistry
+Zoe Hearn,2026,2024,95,Carl Schlenger,Accelerated Algebra
+Malana Hess,2026,2024,83,Katherine Jenkins,LPS
+Sincere Heughan,2026,2024,93,Hoa Cost,Accelerated Chemistry
+Sincere Heughan,2026,2024,97,Emily Gibbs,Accelerated Algebra
+Lincoln Holmes,2026,2024,76,Amber Wagner Gaines,Algebra II
+Lincoln Holmes,2026,2024,76,Megan Flora-Quinn,Chemistry
+Connor House,2025,2024,99,Viktor Polyak,Accelerated Physics
+Ejaz Ibrahim,2025,2024,93,Vincent Bonina,Physics
+Ejaz Ibrahim,2025,2024,80,Sophie Kessler,Precalculus
+Semir Ibrahim,2026,2024,90,Hoa Cost,Accelerated Chemistry
+Semir Ibrahim,2026,2024,92,Carl Schlenger,Accelerated Algebra
+Bryce Ifill,2026,2024,62,Amber Wagner Gaines,Algebra II
+Bryce Ifill,2026,2024,79,Katherine Jenkins,LPS
+Andrew Irwin,2026,2024,84,Megan Flora-Quinn,Chemistry
+Andrew Irwin,2026,2024,81,Emily Gibbs,Algebra II
+Andrew Irwin,2026,2024,82,Jordan Wright,Geometry
+C. Mitchell Jackson,2026,2024,94,Megan Flora-Quinn,Chemistry
+C. Mitchell Jackson,2026,2024,97,Emily Gibbs,Algebra II
+Charlotte Jacobs,2026,2024,82,Hoa Cost,Accelerated Chemistry
+Charlotte Jacobs,2026,2024,92,Emily Gibbs,Accelerated Algebra
+Morris Jeff,2027,2024,89,Katherine Jenkins,Biology
+Morris Jeff,2027,2024,92,Emily Gibbs,Accelerated Geometry
+Noah Johansson,2025,2024,86,Viktor Polyak,Accelerated Physics
+Ashley Johnson,2025,2024,91,Vincent Bonina,Accelerated Physics
+Jayden Jones,2027,2024,91,Patrick Kennedy,Geometry
+Jayden Jones,2027,2024,93,Katherine Jenkins,Biology
+J. Joyce,2027,2024,96,Patrick Kennedy,Geometry
+J. Joyce,2027,2024,85,David Brock,Biology
+Zoe Kahn,2027,2024,91,Katherine Jenkins,Biology
+Zoe Kahn,2027,2024,88,Emily Gibbs,Accelerated Geometry
+Max Keller,2026,2024,96,Megan Flora-Quinn,Chemistry
+Max Keller,2026,2024,92,Emily Gibbs,Algebra II
+Caleb Kessler,2026,2024,98,Megan Flora-Quinn,Accelerated Chemistry
+Grayson Kirk,2027,2024,95,Patrick Kennedy,Geometry
+Grayson Kirk,2027,2024,90,Katherine Jenkins,Biology
+Ramsey Kissack,2025,2024,97,Vincent Bonina,Accelerated Physics
+Maxwell Klinefelter,2025,2024,99,Hoa Cost,Accelerated Chemistry
+Micah Kramer,2026,2024,94,Hoa Cost,Accelerated Chemistry
+Micah Kramer,2026,2024,92,Emily Gibbs,Accelerated Algebra
+Sophia Kranov,2025,2024,93,Sophie Kessler,Precalculus
+Sophia Kranov,2025,2024,91,Vincent Bonina,Accelerated Physics
+Alexander Kulikovsky,2027,2024,92,Patrick Kennedy,Geometry
+Alexander Kulikovsky,2027,2024,81,David Brock,Biology
+Caleb Kurlantzick,2027,2024,95,Molly Nickerson,Biology
+Caleb Kurlantzick,2027,2024,93,Emily Gibbs,Accelerated Geometry
+Nicholas Lane,2027,2024,76,Patrick Kennedy,Geometry
+Nicholas Lane,2027,2024,66,Katherine Jenkins,Biology
+Ingrid Laurens,2026,2024,84,Hoa Cost,Accelerated Chemistry
+Ingrid Laurens,2026,2024,83,Emily Gibbs,Accelerated Algebra
+Devin Lee,2025,2024,84,Sophie Kessler,Precalculus
+Devin Lee,2025,2024,88,Vincent Bonina,Physics
+Noah Levy,2025,2024,96,Vincent Bonina,Accelerated Physics
+Nathaniel Lin,2026,2024,100,Hoa Cost,Accelerated Chemistry
+Nathaniel Lin,2026,2024,99,Emily Gibbs,Accelerated Algebra
+Benjamin Link,2027,2024,91,Molly Nickerson,Biology
+Benjamin Link,2027,2024,95,Emily Gibbs,Accelerated Geometry
+Skye Linkroum,2027,2024,87,Patrick Kennedy,Geometry
+Skye Linkroum,2027,2024,86,Katherine Jenkins,Biology
+Benjamin Long,2026,2024,91,Megan Flora-Quinn,Accelerated Chemistry
+Benjamin Long,2026,2024,96,Carl Schlenger,Accelerated Algebra
+Khalil Lovett,2025,2024,95,Sophie Kessler,Precalculus
+Khalil Lovett,2025,2024,99,Vincent Bonina,Physics
+Yipeng Lu,2025,2024,98,Hoa Cost,Accelerated Chemistry
+Yipeng Lu,2025,2024,98,Viktor Polyak,Special Topics in Physics
+Ethan Lun,2025,2024,87,Megan Flora-Quinn,Chemistry
+Sophie Lun,2027,2024,96,Molly Nickerson,Biology
+Sophie Lun,2027,2024,99,Emily Gibbs,Accelerated Geometry
+Layla Lunn,2025,2024,87,Sophie Kessler,Precalculus
+Layla Lunn,2025,2024,92,Vincent Bonina,Physics
+Chloe Lyons,2025,2024,100,Vincent Bonina,Accelerated Physics
+Coco Lyons,2026,2024,82,Patrick Kennedy,Geometry
+Coco Lyons,2026,2024,87,Katherine Jenkins,LPS
+Michael Lyons,2027,2024,79,Patrick Kennedy,Geometry
+Michael Lyons,2027,2024,82,David Brock,Biology
+Jasper  Maltese,2027,2024,77,Katherine Jenkins,Biology
+Rosa Mangels,2025,2024,83,David Brock,Genetics/Anatomy
+Jullian Marquez,2026,2024,83,Megan Flora-Quinn,Chemistry
+Jullian Marquez,2026,2024,84,Amber Wagner Gaines,Algebra II
+Lillian Marr,2026,2024,92,Megan Flora-Quinn,Accelerated Chemistry
+Lillian Marr,2026,2024,94,Carl Schlenger,Accelerated Algebra
+"Marc Mason, , Jr.",2027,2024,75,Katherine Jenkins,Biology
+Aaliyah Matthews,2027,2024,89,Patrick Kennedy,Geometry
+Aaliyah Matthews,2027,2024,81,Katherine Jenkins,Biology
+Logan Matthews,2026,2024,72,Emily Gibbs,Algebra II
+Logan Matthews,2026,2024,84,Katherine Jenkins,LPS
+Ferris McDermott,2027,2024,94,Molly Nickerson,Biology
+Ferris McDermott,2027,2024,89,Emily Gibbs,Accelerated Geometry
+Eleanor McDonald,2026,2024,76,Patrick Kennedy,Geometry
+Eleanor McDonald,2026,2024,81,Katherine Jenkins,LPS
+Paul Meenan,2025,2024,74,Sophie Kessler,Precalculus
+Paul Meenan,2025,2024,91,Vincent Bonina,Physics
+Louise Mickle,2025,2024,91,Amber Wagner Gaines,Precalculus
+Louise Mickle,2025,2024,93,Vincent Bonina,Physics
+Quinn Minke,2027,2024,96,Molly Nickerson,Biology
+Quinn Minke,2027,2024,98,Carl Schlenger,Accelerated Algebra
+Quinn Minke,2027,2024,95,Emily Gibbs,Accelerated Geometry
+"William Mitchell, II",2025,2024,76,Sophie Kessler,Precalculus
+"William Mitchell, II",2025,2024,89,Vincent Bonina,Physics
+"Christopher Moore, II",2026,2024,83,Amber Wagner Gaines,Algebra II
+"Christopher Moore, II",2026,2024,89,Katherine Jenkins,LPS
+Oliver Moser,2027,2024,85,Amber Wagner Gaines,Algebra II
+Oliver Moser,2027,2024,85,Katherine Jenkins,Biology
+Indigo Mosley,2026,2024,92,Hoa Cost,Accelerated Chemistry
+Indigo Mosley,2026,2024,95,Carl Schlenger,Accelerated Algebra
+John Motz,2026,2024,95,Megan Flora-Quinn,Chemistry
+John Motz,2026,2024,91,Emily Gibbs,Accelerated Algebra
+Daphne Mueller-Kralli,2026,2024,83,Amber Wagner Gaines,Algebra II
+Daphne Mueller-Kralli,2026,2024,88,Megan Flora-Quinn,Chemistry
+Jonathan Negin,2026,2024,92,Megan Flora-Quinn,Chemistry
+Jonathan Negin,2026,2024,93,Emily Gibbs,Algebra II
+Adina Newman-Toker,2025,2024,95,Viktor Polyak,Accelerated Physics
+Adam Nicolson,2025,2024,99,Viktor Polyak,Accelerated Physics
+Ryan Nwosu,2027,2024,76,Patrick Kennedy,Geometry
+Ryan Nwosu,2027,2024,76,Molly Nickerson,Biology
+Eloise Oakes,2027,2024,97,Molly Nickerson,Biology
+Eloise Oakes,2027,2024,98,Emily Gibbs,Accelerated Geometry
+Leona Oduor,2026,2024,90,Amber Wagner Gaines,Algebra II
+Leona Oduor,2026,2024,84,Megan Flora-Quinn,Chemistry
+Noah Ono Bobi,2026,2024,91,Patrick Kennedy,Geometry
+Noah Ono Bobi,2026,2024,77,Katherine Jenkins,LPS
+Isla Ottmann,2026,2024,83,Megan Flora-Quinn,Chemistry
+Isla Ottmann,2026,2024,75,Amber Wagner Gaines,Algebra II
+Awaliyat Oyenuga,2027,2024,87,Patrick Kennedy,Geometry
+Awaliyat Oyenuga,2027,2024,91,Katherine Jenkins,Biology
+Sadie Palermo,2026,2024,83,Hoa Cost,Accelerated Chemistry
+Sadie Palermo,2026,2024,82,Carl Schlenger,Accelerated Algebra
+Ella Palmer,2025,2024,96,Viktor Polyak,Accelerated Physics
+Fiona Palmer,2027,2024,87,Patrick Kennedy,Geometry
+Fiona Palmer,2027,2024,77,Katherine Jenkins,Biology
+Hannah Pangaribuan,2026,2024,81,Hoa Cost,Accelerated Chemistry
+Hannah Pangaribuan,2026,2024,89,Carl Schlenger,Accelerated Algebra
+Noah Pangaribuan,2025,2024,89,Vincent Bonina,Accelerated Physics
+Sophia Park,2027,2024,93,Katherine Jenkins,Biology
+Sophia Park,2027,2024,85,Emily Gibbs,Accelerated Geometry
+Rhea Pathak,2026,2024,89,Hoa Cost,Accelerated Chemistry
+Rhea Pathak,2026,2024,93,Emily Gibbs,Accelerated Algebra
+Elaina Pearce,2025,2024,98,Vincent Bonina,Accelerated Physics
+Maya Pearce,2025,2024,82,Sophie Kessler,Precalculus
+Maya Pearce,2025,2024,92,Vincent Bonina,Physics
+Graham Porter,2026,2024,95,Hoa Cost,Accelerated Chemistry
+Graham Porter,2026,2024,97,Carl Schlenger,Accelerated Algebra
+Olivia Prichett,2026,2024,95,Megan Flora-Quinn,Accelerated Chemistry
+Olivia Prichett,2026,2024,94,Carl Schlenger,Accelerated Algebra
+George Principe,2025,2024,96,Amber Wagner Gaines,Precalculus
+George Principe,2025,2024,90,Viktor Polyak,Accelerated Physics
+Sachin Rao,2025,2024,94,Amber Wagner Gaines,Precalculus
+Sachin Rao,2025,2024,92,Vincent Bonina,Accelerated Physics
+Esperance Rapley,2026,2024,0,Hoa Cost,Accelerated Chemistry
+August Reichert,2027,2024,93,Patrick Kennedy,Geometry
+August Reichert,2027,2024,82,David Brock,Biology
+Julia Reifsnyder,2027,2024,96,Molly Nickerson,Biology
+Julia Reifsnyder,2027,2024,98,Emily Gibbs,Accelerated Geometry
+Luke Ripke,2026,2024,96,Hoa Cost,Accelerated Chemistry
+Luke Ripke,2026,2024,97,Carl Schlenger,Accelerated Algebra
+Lillian Roach,2027,2024,97,Patrick Kennedy,Geometry
+Lillian Roach,2027,2024,93,Molly Nickerson,Biology
+Elizabeth Roberts,2025,2024,89,Amber Wagner Gaines,Precalculus
+Elizabeth Roberts,2025,2024,90,Megan Flora-Quinn,Chemistry
+Anaya Robinson,2026,2024,96,Sophie Kessler,Precalculus
+Anaya Robinson,2026,2024,90,Hoa Cost,Accelerated Chemistry
+Jasmine Robinson,2027,2024,94,Molly Nickerson,Biology
+Jasmine Robinson,2027,2024,82,Emily Gibbs,Accelerated Geometry
+Sofia  Rodriguez,2026,2024,70,Megan Flora-Quinn,Chemistry
+Sofia  Rodriguez,2026,2024,78,Emily Gibbs,Accelerated Algebra
+Lucas Rogers,2026,2024,83,Megan Flora-Quinn,Accelerated Chemistry
+Lucas Rogers,2026,2024,91,Emily Gibbs,Accelerated Geometry
+Alexandra Rosenthal,2026,2024,100,Hoa Cost,Accelerated Chemistry
+Alexandra Rosenthal,2026,2024,98,Emily Gibbs,Accelerated Algebra
+Adelei Ruhland,2027,2024,99,Katherine Jenkins,Biology
+Adelei Ruhland,2027,2024,99,Carl Schlenger,Accelerated Algebra
+Hannah Ruley,2026,2024,96,Megan Flora-Quinn,Accelerated Chemistry
+Hannah Ruley,2026,2024,95,Carl Schlenger,Accelerated Algebra
+Isabelle Ruley,2025,2024,93,Vincent Bonina,Physics
+Isabelle Ruley,2025,2024,90,Amber Wagner Gaines,Precalculus
+Leonora Ryscavage,2026,2024,93,Hoa Cost,Accelerated Chemistry
+Leonora Ryscavage,2026,2024,90,Emily Gibbs,Accelerated Algebra
+Celia Sanchez,2027,2024,99,Emily Gibbs,Algebra II
+Celia Sanchez,2027,2024,93,Molly Nickerson,Biology
+Louisa Sanchez,2025,2024,91,Viktor Polyak,Accelerated Physics
+Elia Schmelz,2026,2024,91,Hoa Cost,Accelerated Chemistry
+Elia Schmelz,2026,2024,91,Carl Schlenger,Accelerated Algebra
+"Quentin Scott, II",2025,2024,98,Vincent Bonina,Physics
+"Quentin Scott, II",2025,2024,84,Sophie Kessler,Precalculus
+Gabriel Sellers,2026,2024,78,Amber Wagner Gaines,Algebra II
+Gabriel Sellers,2026,2024,92,Katherine Jenkins,LPS
+K. Setty,2027,2024,96,Patrick Kennedy,Geometry
+K. Setty,2027,2024,88,Katherine Jenkins,Biology
+Benjamin Shockney,2027,2024,91,Molly Nickerson,Biology
+Benjamin Shockney,2027,2024,86,Emily Gibbs,Accelerated Geometry
+Asuman Smith,2025,2024,88,Molly Nickerson,Ecology/Evolution
+Ruben Smith,2027,2024,83,David Brock,Biology
+Ruben Smith,2027,2024,80,Emily Gibbs,Accelerated Geometry
+Jackson Solliday,2026,2024,93,Amber Wagner Gaines,Algebra II
+Jackson Solliday,2026,2024,90,Katherine Jenkins,LPS
+Selam Spencer,2027,2024,67,David Brock,Biology
+Alexander Stevenson,2026,2024,87,Megan Flora-Quinn,Chemistry
+Alexander Stevenson,2026,2024,91,Amber Wagner Gaines,Algebra II
+Lincoln Summers,2026,2024,92,Hoa Cost,Accelerated Chemistry
+Lincoln Summers,2026,2024,92,Carl Schlenger,Accelerated Algebra
+Hadynn Sund,2027,2024,99,Molly Nickerson,Biology
+Hadynn Sund,2027,2024,98,Emily Gibbs,Accelerated Geometry
+Harper Sylvan,2027,2024,86,Patrick Kennedy,Geometry
+Harper Sylvan,2027,2024,83,Katherine Jenkins,Biology
+Abigail  Szokoly,2026,2024,100,Amber Wagner Gaines,Algebra II
+Abigail  Szokoly,2026,2024,97,Megan Flora-Quinn,Accelerated Chemistry
+Cameron Talley,2027,2024,88,Molly Nickerson,Biology
+Cameron Talley,2027,2024,83,Emily Gibbs,Accelerated Geometry
+Rhyan Taylor,2025,2024,85,Viktor Polyak,Accelerated Physics
+Troy Taylor,2027,2024,85,Patrick Kennedy,Geometry
+Troy Taylor,2027,2024,79,Molly Nickerson,Biology
+Morgan Thomasson-Small,2026,2024,76,Amber Wagner Gaines,Algebra II
+Morgan Thomasson-Small,2026,2024,83,Megan Flora-Quinn,Chemistry
+Kaeden Todman,2026,2024,78,Hoa Cost,Accelerated Chemistry
+Kaeden Todman,2026,2024,87,Carl Schlenger,Accelerated Algebra
+Caroline Toll,2025,2024,95,Viktor Polyak,Accelerated Physics
+Natalie Tompkins,2025,2024,93,Viktor Polyak,Accelerated Physics
+Solomon Tompkins,2025,2024,82,Sophie Kessler,Precalculus
+Solomon Tompkins,2025,2024,97,Vincent Bonina,Physics
+Henry Turner,2025,2024,96,Viktor Polyak,Accelerated Physics
+Ruby Turner,2026,2024,91,Megan Flora-Quinn,Chemistry
+Ruby Turner,2026,2024,84,Amber Wagner Gaines,Algebra II
+Greyson Vaslow,2026,2024,82,Hoa Cost,Accelerated Chemistry
+Greyson Vaslow,2026,2024,85,Emily Gibbs,Accelerated Algebra
+Nils von Boehmer,2025,2024,92,Hoa Cost,Advanced Chemistry
+Nils von Boehmer,2025,2024,98,Vincent Bonina,Accelerated Physics
+Luci Wagner,2027,2024,92,Patrick Kennedy,Geometry
+Luci Wagner,2027,2024,88,Molly Nickerson,Biology
+Zoe Wahl,2027,2024,83,Katherine Jenkins,Biology
+Zoe Wahl,2027,2024,77,Emily Gibbs,Accelerated Geometry
+Katherine Wayland,2027,2024,95,Katherine Jenkins,Biology
+Katherine Wayland,2027,2024,94,Carl Schlenger,Accelerated Algebra
+Ella West,2025,2024,98,Amber Wagner Gaines,Precalculus
+Ella West,2025,2024,83,Viktor Polyak,Accelerated Physics
+Nicolas White,2026,2024,91,Megan Flora-Quinn,Accelerated Chemistry
+Nicolas White,2026,2024,93,Carl Schlenger,Accelerated Algebra
+Tommy Wiker,2025,2024,76,Megan Flora-Quinn,Chemistry
+Tommy Wiker,2025,2024,82,Emily Gibbs,Algebra II
+Ella Wilkerson,2025,2024,94,Vincent Bonina,Physics
+Ella Wilkerson,2025,2024,90,Sophie Kessler,Precalculus
+Isabella Wilkes,2025,2024,96,Vincent Bonina,Physics
+Maya Williams,2025,2024,72,Amber Wagner Gaines,Precalculus
+Maya Williams,2025,2024,80,David Brock,Genetics/Anatomy
+Braxton Wilner,2026,2024,61,Emily Gibbs,Algebra II
+Braxton Wilner,2026,2024,82,Katherine Jenkins,LPS
+Clara Witte,2027,2024,98,Molly Nickerson,Biology
+Clara Witte,2027,2024,94,Carl Schlenger,Accelerated Algebra
+Emory Woods,2026,2024,78,Emily Gibbs,Algebra II
+Emory Woods,2026,2024,81,Megan Flora-Quinn,Chemistry
+Oliver Wu,2026,2024,98,Amber Wagner Gaines,Algebra II
+Oliver Wu,2026,2024,95,Hoa Cost,Accelerated Chemistry
+Dinghui Xu,2026,2024,91,Megan Flora-Quinn,Accelerated Chemistry
+Dinghui Xu,2026,2024,95,Carl Schlenger,Accelerated Algebra
+Aiden Yang,2026,2024,97,Megan Flora-Quinn,Accelerated Chemistry
+Kaleb Younger,2025,2024,71,Viktor Polyak,Accelerated Physics
+Nicolas Zapata,2026,2024,80,Megan Flora-Quinn,Chemistry
+Nicolas Zapata,2026,2024,90,Emily Gibbs,Algebra II
+Alexei Zehr,2027,2024,89,Patrick Kennedy,Geometry
+Alexei Zehr,2027,2024,80,David Brock,Biology
