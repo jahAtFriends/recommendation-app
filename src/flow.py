@@ -13,10 +13,11 @@ from student import Student
 from courses import Course
 
 class CourseFlow:
-    def __init__(self, data=None):
+    def __init__(self, data, course_list):
         self.arrows = {}
-        if data is not None:
-            self.build_flow(data)
+        for course in course_list:
+            self.arrows[course] = []
+        self.build_flow(data, course_list)
     
     def __add_arrow(self, arrow):
         if arrow.from_course not in self.arrows:
@@ -28,7 +29,7 @@ class CourseFlow:
             grade_level = entry['grade_level']
             courses = entry['courses']
             for course in courses:
-                from_course = course_list.get_course(course['from_course'])
+                from_course = course_list.get_course(course['course_name'])
                 arrows = Arrow.build_arrows_from_data(course['arrows'], grade_level, from_course, course_list)
                 for arrow in arrows:
                     self.__add_arrow(arrow)
@@ -53,7 +54,7 @@ class Arrow:
         result = []
 
         for arrow in arrows:
-            to_course = course_list.get_course(arrow['to_course'])
+            to_course = course_list.get_course(arrow['course_name'])
             rank = arrow['rank']
             result.append(Arrow(from_course, to_course, rank, grade_level))
 
