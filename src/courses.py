@@ -36,12 +36,12 @@ class Course_List:
                 return course
         raise ValueError(f'Course {name} not found in course list.')
     
-    
+
     @classmethod
     def build_course_list(cls, data):
         course_list = Course_List()
         for course in data:
-            name = course['course_name']
+            name = course['name']
             grade_levels = course['grade_levels']
             department = course['department']
             course_list.add_course(Course(name, grade_levels, department))
@@ -50,5 +50,17 @@ class Course_List:
     def apply_prerequisites_to_courses(self, data):
         for course in data:
             name = course['course_name']
-            prerequisites = Prerequisite.build_prereq(course['prerequisites'])
+            prerequisites = Prerequisite.build_prereq(course['prerequisites'], self)
             self.get_course(name).prerequisites = prerequisites
+
+    def __iter__(self):
+        return iter(self.courses)
+    
+    def __str__(self):
+        """
+        Converts the course object to a string representation.
+
+        Returns:
+            str: The string representation of the course (course name).
+        """
+        return self.name
